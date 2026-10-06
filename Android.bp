@@ -1,0 +1,5964 @@
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libstagefright_sprd_h264dec_so",
+    stem: "libstagefright_sprd_h264dec.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libstagefright_sprd_h264dec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libbokeh_depth_so",
+    stem: "libbokeh_depth.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libbokeh_depth.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libusc_so",
+    stem: "libusc.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libusc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libkeystore_engine_wifi_hidl_so",
+    stem: "libkeystore-engine-wifi-hidl.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libawb1_so",
+    stem: "libawb1.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libawb1.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_camera_device_1_0_impl_so",
+    stem: "camera.device@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/camera.device@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_vendor_sprd_hardware_aprd_1_0_so",
+    stem: "vendor.sprd.hardware.aprd@1.0.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.aprd@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libbt_vendor_so",
+    stem: "libbt-vendor.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libbt-vendor.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libaudionpi_so",
+    stem: "libaudionpi.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libaudionpi.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_liblcswbxml2_so",
+    stem: "liblcswbxml2.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/liblcswbxml2.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_camera_device_3_4_impl_sprd_so",
+    stem: "camera.device@3.4-impl-sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/camera.device@3.4-impl-sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libvbeffect_so",
+    stem: "libvbeffect.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libvbeffect.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libSegLite_so",
+    stem: "libSegLite.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libSegLite.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libmapuser_so",
+    stem: "libmapuser.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libmapuser.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libmemion_so",
+    stem: "libmemion.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libmemion.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libstagefright_soft_mjpgdec_so",
+    stem: "libstagefright_soft_mjpgdec.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libstagefright_soft_mjpgdec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_lib_remote_simlock_so",
+    stem: "lib_remote_simlock.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/lib_remote_simlock.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsensornpi_so",
+    stem: "libsensornpi.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsensornpi.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libomx_vpxdec_hw_sprd_so",
+    stem: "libomx_vpxdec_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libomx_vpxdec_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprdaudiohal_so",
+    stem: "libsprdaudiohal.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprdaudiohal.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libdrm_so",
+    stem: "libdrm.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libdrm.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libstagefright_sprd_mpeg4enc_so",
+    stem: "libstagefright_sprd_mpeg4enc.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libstagefright_sprd_mpeg4enc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprdfaceid_so",
+    stem: "libsprdfaceid.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprdfaceid.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libomx_avcdec_vt_sprd_so",
+    stem: "libomx_avcdec_vt_sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libomx_avcdec_vt_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprdcnr_so",
+    stem: "libsprdcnr.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprdcnr.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libcld80211_so",
+    stem: "libcld80211.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libcld80211.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libefuse_so",
+    stem: "libefuse.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libefuse.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libhwminijail_so",
+    stem: "libhwminijail.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libhwminijail.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libcamfb_so",
+    stem: "libcamfb.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libcamfb.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libnbaio_mono_so",
+    stem: "libnbaio_mono.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libnbaio_mono.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libpowerhal_cli_so",
+    stem: "libpowerhal_cli.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libpowerhal_cli.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libae_so",
+    stem: "libae.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libae.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libstagefright_sprd_h265dec_so",
+    stem: "libstagefright_sprd_h265dec.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libstagefright_sprd_h265dec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libcampm_so",
+    stem: "libcampm.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libcampm.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libstagefright_sprd_mpeg4dec_so",
+    stem: "libstagefright_sprd_mpeg4dec.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libstagefright_sprd_mpeg4dec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libhwc2on1adapter_so",
+    stem: "libhwc2on1adapter.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libhwc2on1adapter.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libSprdImageFilter_so",
+    stem: "libSprdImageFilter.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libSprdImageFilter.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libispalg_so",
+    stem: "libispalg.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libispalg.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libcambr_so",
+    stem: "libcambr.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libcambr.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsrv_um_so",
+    stem: "libsrv_um.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsrv_um.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_vendor_sprd_hardware_wifi_supplicant_1_1_so",
+    stem: "vendor.sprd.hardware.wifi.supplicant@1.1.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.wifi.supplicant@1.1.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libcamdrv_so",
+    stem: "libcamdrv.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libcamdrv.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libkernelbootcp_trusty_so",
+    stem: "libkernelbootcp.trusty.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libkernelbootcp.trusty.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libalsautils_so",
+    stem: "libalsautils.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libalsautils.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libstagefright_sprd_h264enc_so",
+    stem: "libstagefright_sprd_h264enc.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libstagefright_sprd_h264enc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_camera_device_3_3_impl_so",
+    stem: "camera.device@3.3-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/camera.device@3.3-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libreference_ril_so",
+    stem: "libreference-ril.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libreference-ril.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprd_ril_so",
+    stem: "libsprd-ril.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprd-ril.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libhwc2onfbadapter_so",
+    stem: "libhwc2onfbadapter.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libhwc2onfbadapter.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libcamcommon_so",
+    stem: "libcamcommon.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libcamcommon.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libstagefright_sprd_vpxdec_so",
+    stem: "libstagefright_sprd_vpxdec.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libstagefright_sprd_vpxdec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprdfa_so",
+    stem: "libsprdfa.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprdfa.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsensorndkbridge_so",
+    stem: "libsensorndkbridge.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsensorndkbridge.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libSprdPdAlgo_so",
+    stem: "libSprdPdAlgo.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libSprdPdAlgo.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libril_threads_so",
+    stem: "libril_threads.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libril_threads.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libcreatesurface_so",
+    stem: "libcreatesurface.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libcreatesurface.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libaudioparamteser_so",
+    stem: "libaudioparamteser.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libaudioparamteser.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprd_ril_single_so",
+    stem: "libsprd-ril-single.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprd-ril-single.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libiwnpi_so",
+    stem: "libiwnpi.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libiwnpi.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libdeflicker_so",
+    stem: "libdeflicker.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libdeflicker.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libcamoem_so",
+    stem: "libcamoem.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libcamoem.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libIMGegl_so",
+    stem: "libIMGegl.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libIMGegl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libcam_otp_parser_so",
+    stem: "libcam_otp_parser.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libcam_otp_parser.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libomx_hevcdec_hw_sprd_so",
+    stem: "libomx_hevcdec_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libomx_hevcdec_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprdaudiohal_deathhandler_so",
+    stem: "libsprdaudiohal_deathhandler.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprdaudiohal_deathhandler.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libatci_so",
+    stem: "libatci.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libatci.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libstagefright_soft_imaadpcmdec_so",
+    stem: "libstagefright_soft_imaadpcmdec.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libstagefright_soft_imaadpcmdec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libwifi_hal_so",
+    stem: "libwifi-hal.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libwifi-hal.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libfacepose_so",
+    stem: "libfacepose.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libfacepose.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libstagefright_sprd_mp3enc_so",
+    stem: "libstagefright_sprd_mp3enc.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libstagefright_sprd_mp3enc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libbokeh_gaussian_so",
+    stem: "libbokeh_gaussian.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libbokeh_gaussian.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libpvrANDROID_WSEGL_so",
+    stem: "libpvrANDROID_WSEGL.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libpvrANDROID_WSEGL.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprdaudiohal_4_0_so",
+    stem: "libsprdaudiohal@4.0.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprdaudiohal@4.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprdfar_so",
+    stem: "libsprdfar.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprdfar.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libtqvalidate_so",
+    stem: "libtqvalidate.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libtqvalidate.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libfaceid_ca_so",
+    stem: "libfaceid_ca.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libfaceid_ca.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libstagefright_sprd_h265enc_so",
+    stem: "libstagefright_sprd_h265enc.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libstagefright_sprd_h265enc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsupl_so",
+    stem: "libsupl.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsupl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_librilutils_so",
+    stem: "librilutils.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/librilutils.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libomx_avcdec_hw_sprd_so",
+    stem: "libomx_avcdec_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libomx_avcdec_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_vendor_sprd_hardware_power_3_0_so",
+    stem: "vendor.sprd.hardware.power@3.0.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.power@3.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprdhdr_so",
+    stem: "libsprdhdr.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprdhdr.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_camera_device_3_4_external_impl_so",
+    stem: "camera.device@3.4-external-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/camera.device@3.4-external-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_vendor_sprd_hardware_face_1_0_so",
+    stem: "vendor.sprd.hardware.face@1.0.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.face@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libomx_m4vh263enc_sw_sprd_so",
+    stem: "libomx_m4vh263enc_sw_sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libomx_m4vh263enc_sw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libomx_avcenc_hw_sprd_so",
+    stem: "libomx_avcenc_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libomx_avcenc_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libflash_so",
+    stem: "libflash.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libflash.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libomx_vpxenc_hw_sprd_so",
+    stem: "libomx_vpxenc_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libomx_vpxenc_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libPVRRS_sha1_so",
+    stem: "libPVRRS.sha1.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libPVRRS.sha1.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libstagefright_sprd_vp9dec_so",
+    stem: "libstagefright_sprd_vp9dec.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libstagefright_sprd_vp9dec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_liblcscp_so",
+    stem: "liblcscp.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/liblcscp.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libbokeh_gaussian_cap_so",
+    stem: "libbokeh_gaussian_cap.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libbokeh_gaussian_cap.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libstagefright_sprd_mp3dec_so",
+    stem: "libstagefright_sprd_mp3dec.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libstagefright_sprd_mp3dec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libomx_vp9dec_hw_sprd_so",
+    stem: "libomx_vp9dec_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libomx_vp9dec_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libXMPCore_so",
+    stem: "libXMPCore.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libXMPCore.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_camera_device_3_3_impl_sprd_so",
+    stem: "camera.device@3.3-impl-sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/camera.device@3.3-impl-sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libDivRIL_so",
+    stem: "libDivRIL.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libDivRIL.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsutu_display_so",
+    stem: "libsutu_display.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsutu_display.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_vendor_sprd_hardware_gnss_2_0_so",
+    stem: "vendor.sprd.hardware.gnss@2.0.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.gnss@2.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprdaic_so",
+    stem: "libsprdaic.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprdaic.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libomx_avcdec_sw_sprd_so",
+    stem: "libomx_avcdec_sw_sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libomx_avcdec_sw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libPVRScopeServices_so",
+    stem: "libPVRScopeServices.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libPVRScopeServices.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_librilsprd_single_so",
+    stem: "librilsprd-single.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/librilsprd-single.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_camera_device_3_2_impl_sprd_so",
+    stem: "camera.device@3.2-impl-sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/camera.device@3.2-impl-sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libwebrtc_audio_preprocessing_so",
+    stem: "libwebrtc_audio_preprocessing.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libwebrtc_audio_preprocessing.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprdlsc_so",
+    stem: "libsprdlsc.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprdlsc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_liblcsmgt_so",
+    stem: "liblcsmgt.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/liblcsmgt.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_power_sprd_so",
+    stem: "power.sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/power.sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libomx_mp3enc_sprd_so",
+    stem: "libomx_mp3enc_sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libomx_mp3enc_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libteeproduction_so",
+    stem: "libteeproduction.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libteeproduction.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libPVRRS_so",
+    stem: "libPVRRS.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libPVRRS.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libeng_tok_so",
+    stem: "libeng_tok.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libeng_tok.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_vendor_sprd_hardware_fingerprintmmi_1_0_so",
+    stem: "vendor.sprd.hardware.fingerprintmmi@1.0.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.fingerprintmmi@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libeffects_so",
+    stem: "libeffects.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libeffects.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprdscenedetect_so",
+    stem: "libsprdscenedetect.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprdscenedetect.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_vendor_sprd_hardware_thermal_1_0_so",
+    stem: "vendor.sprd.hardware.thermal@1.0.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.thermal@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libnvexchange_so",
+    stem: "libnvexchange.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libnvexchange.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libomx_hevcenc_hw_sprd_so",
+    stem: "libomx_hevcenc_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libomx_hevcenc_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_camera_device_3_2_impl_so",
+    stem: "camera.device@3.2-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/camera.device@3.2-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libstagefright_sprd_deintl_so",
+    stem: "libstagefright_sprd_deintl.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libstagefright_sprd_deintl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_vendor_sprd_hardware_log_1_0_so",
+    stem: "vendor.sprd.hardware.log@1.0.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.log@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libbt_sprd_suite_so",
+    stem: "libbt-sprd_suite.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libbt-sprd_suite.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_liblte_so",
+    stem: "liblte.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/liblte.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsensorsdrvcfg_so",
+    stem: "libsensorsdrvcfg.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsensorsdrvcfg.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libstagefrighthw_so",
+    stem: "libstagefrighthw.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libstagefrighthw.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libBokeh2Frames_so",
+    stem: "libBokeh2Frames.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libBokeh2Frames.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libatm_so",
+    stem: "libatm.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libatm.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libhdr_so",
+    stem: "libhdr.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libhdr.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprdbokeh_so",
+    stem: "libsprdbokeh.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprdbokeh.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprd_omx_core_so",
+    stem: "libsprd_omx_core.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprd_omx_core.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libyuv420_scaler_so",
+    stem: "libyuv420_scaler.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libyuv420_scaler.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libjpeg_hw_sprd_so",
+    stem: "libjpeg_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libjpeg_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libspafv1_so",
+    stem: "libspafv1.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libspafv1.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libXMPFiles_so",
+    stem: "libXMPFiles.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libXMPFiles.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprdfd_so",
+    stem: "libsprdfd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprdfd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_liblowi_wifihal_so",
+    stem: "liblowi_wifihal.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/liblowi_wifihal.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_liblsc_so",
+    stem: "liblsc.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/liblsc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libkeystore_wifi_hidl_so",
+    stem: "libkeystore-wifi-hidl.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libkeystore-wifi-hidl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libcamrt_so",
+    stem: "libcamrt.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libcamrt.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_librilsprd_so",
+    stem: "librilsprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/librilsprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libkeymaster3device_so",
+    stem: "libkeymaster3device.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libkeymaster3device.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_vendor_sprd_hardware_radio_flavor_1_0_so",
+    stem: "vendor.sprd.hardware.radio.flavor@1.0.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.radio.flavor@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libeffectsconfig_so",
+    stem: "libeffectsconfig.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libeffectsconfig.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_vendor_sprd_hardware_radio_1_0_so",
+    stem: "vendor.sprd.hardware.radio@1.0.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.radio@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libglslcompiler_so",
+    stem: "libglslcompiler.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libglslcompiler.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libcamsensor_so",
+    stem: "libcamsensor.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libcamsensor.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_liblcsagent_so",
+    stem: "liblcsagent.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/liblcsagent.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libfactorylib_so",
+    stem: "libfactorylib.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libfactorylib.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsensorlistcfg_so",
+    stem: "libsensorlistcfg.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsensorlistcfg.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libomx_m4vh263dec_sw_sprd_so",
+    stem: "libomx_m4vh263dec_sw_sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libomx_m4vh263dec_sw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libspcaftrigger_so",
+    stem: "libspcaftrigger.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libspcaftrigger.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprdswisp_so",
+    stem: "libsprdswisp.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprdswisp.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libfprint_x64_so",
+    stem: "libfprint-x64.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libfprint-x64.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libomx_m4vh263dec_hw_sprd_so",
+    stem: "libomx_m4vh263dec_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libomx_m4vh263dec_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprdfacebeauty_so",
+    stem: "libsprdfacebeauty.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprdfacebeauty.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libril_so",
+    stem: "libril.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libril.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_vendor_sprd_hardware_connmgr_1_0_so",
+    stem: "vendor.sprd.hardware.connmgr@1.0.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.connmgr@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsprddepth_so",
+    stem: "libsprddepth.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsprddepth.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_vendor_sprd_hardware_wifi_hostapd_1_0_so",
+    stem: "vendor.sprd.hardware.wifi.hostapd@1.0.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.wifi.hostapd@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libtrusty_so",
+    stem: "libtrusty.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libtrusty.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_vendor_sprd_hardware_enhance_1_0_so",
+    stem: "vendor.sprd.hardware.enhance@1.0.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.enhance@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_librpmbclient_so",
+    stem: "librpmbclient.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/librpmbclient.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_mediadrm_libdrmclearkeyplugin_so",
+    stem: "libdrmclearkeyplugin.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "mediadrm",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_soundfx_libeffectproxy_so",
+    stem: "libeffectproxy.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/soundfx/libeffectproxy.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_soundfx_libdynproc_so",
+    stem: "libdynproc.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/soundfx/libdynproc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_soundfx_libdownmix_so",
+    stem: "libdownmix.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/soundfx/libdownmix.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_soundfx_libreverbwrapper_so",
+    stem: "libreverbwrapper.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/soundfx/libreverbwrapper.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_soundfx_libvisualizer_so",
+    stem: "libvisualizer.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/soundfx/libvisualizer.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_soundfx_libaudiopreprocessing_so",
+    stem: "libaudiopreprocessing.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_soundfx_libldnhncr_so",
+    stem: "libldnhncr.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/soundfx/libldnhncr.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_soundfx_libbundlewrapper_so",
+    stem: "libbundlewrapper.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/soundfx/libbundlewrapper.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_production_libpubefuseapi_so",
+    stem: "libpubefuseapi.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "production",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/production/libpubefuseapi.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_camera_sp9863a_so",
+    stem: "camera.sp9863a.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/camera.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_vendor_sprd_hardware_aprd_1_0_impl_so",
+    stem: "vendor.sprd.hardware.aprd@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.aprd@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_gps_default_so",
+    stem: "gps.default.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/gps.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_dpu_sp9863a_so",
+    stem: "dpu.sp9863a.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/dpu.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_vendor_sprd_hardware_fingerprintmmi_1_0_impl_so",
+    stem: "vendor.sprd.hardware.fingerprintmmi@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.fingerprintmmi@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_gralloc_sp9863a_so",
+    stem: "gralloc.sp9863a.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/gralloc.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_keystore_sp9863a_so",
+    stem: "keystore.sp9863a.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/keystore.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_audio_4_0_impl_so",
+    stem: "android.hardware.audio@4.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.audio@4.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_sensors_sp9863a_so",
+    stem: "sensors.sp9863a.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/sensors.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_power_default_so",
+    stem: "power.default.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/power.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_gatekeeper_default_so",
+    stem: "gatekeeper.default.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/gatekeeper.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_face_default_so",
+    stem: "face.default.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/face.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_bluetooth_1_0_impl_unisoc_so",
+    stem: "android.hardware.bluetooth@1.0-impl-unisoc.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-unisoc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_vendor_sprd_hardware_power_3_0_impl_so",
+    stem: "vendor.sprd.hardware.power@3.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.power@3.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_vendor_sprd_hardware_connmgr_1_0_impl_so",
+    stem: "vendor.sprd.hardware.connmgr@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.connmgr@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_vendor_sprd_hardware_gnss_2_0_impl_so",
+    stem: "vendor.sprd.hardware.gnss@2.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.gnss@2.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_vibrator_1_0_impl_so",
+    stem: "android.hardware.vibrator@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_gsp_sp9863a_so",
+    stem: "gsp.sp9863a.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/gsp.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_consumerir_default_so",
+    stem: "consumerir.default.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/consumerir.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_lights_sp9863a_so",
+    stem: "lights.sp9863a.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/lights.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_audio_r_submix_default_so",
+    stem: "audio.r_submix.default.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/audio.r_submix.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_enhance_sp9863a_so",
+    stem: "enhance.sp9863a.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/enhance.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_fingerprint_default_so",
+    stem: "fingerprint.default.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/fingerprint.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_keymaster_3_0_impl_so",
+    stem: "android.hardware.keymaster@3.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_audio_primary_default_so",
+    stem: "audio.primary.default.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/audio.primary.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_camera_provider_2_4_impl_sprd_so",
+    stem: "android.hardware.camera.provider@2.4-impl-sprd.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_audio_effect_4_0_impl_so",
+    stem: "android.hardware.audio.effect@4.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_hwcomposer_sp9863a_so",
+    stem: "hwcomposer.sp9863a.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/hwcomposer.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_ir_1_0_impl_so",
+    stem: "android.hardware.ir@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.ir@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_audio_usb_default_so",
+    stem: "audio.usb.default.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/audio.usb.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_memtrack_1_0_impl_so",
+    stem: "android.hardware.memtrack@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_health_1_0_impl_so",
+    stem: "android.hardware.health@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.health@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_vendor_sprd_hardware_log_1_0_impl_so",
+    stem: "vendor.sprd.hardware.log@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.log@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_memtrack_sp9863a_so",
+    stem: "memtrack.sp9863a.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/memtrack.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_graphics_allocator_2_0_impl_so",
+    stem: "android.hardware.graphics.allocator@2.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_broadcastradio_1_0_impl_so",
+    stem: "android.hardware.broadcastradio@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.broadcastradio@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_graphics_mapper_2_0_impl_so",
+    stem: "android.hardware.graphics.mapper@2.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_local_time_default_so",
+    stem: "local_time.default.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/local_time.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_renderscript_1_0_impl_so",
+    stem: "android.hardware.renderscript@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_sensors_1_0_impl_so",
+    stem: "android.hardware.sensors@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.sensors@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_graphics_composer_2_1_impl_so",
+    stem: "android.hardware.graphics.composer@2.1-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.graphics.composer@2.1-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_vendor_sprd_hardware_enhance_1_0_impl_so",
+    stem: "vendor.sprd.hardware.enhance@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.enhance@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_gralloc_default_so",
+    stem: "gralloc.default.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/gralloc.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_keystore_sprdtrusty_so",
+    stem: "keystore.sprdtrusty.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/keystore.sprdtrusty.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_light_2_0_impl_so",
+    stem: "android.hardware.light@2.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.light@2.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_vendor_sprd_hardware_thermal_1_0_impl_so",
+    stem: "vendor.sprd.hardware.thermal@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.thermal@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_bluetooth_a2dp_1_0_impl_unisoc_so",
+    stem: "android.hardware.bluetooth.a2dp@1.0-impl-unisoc.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.bluetooth.a2dp@1.0-impl-unisoc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_thermal_default_so",
+    stem: "thermal.default.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/thermal.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_android_hardware_gatekeeper_1_0_impl_so",
+    stem: "android.hardware.gatekeeper@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_vibrator_default_so",
+    stem: "vibrator.default.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/vibrator.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_mediacas_libclearkeycasplugin_so",
+    stem: "libclearkeycasplugin.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "mediacas",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_npidevice_PQTune_sp9863a_so",
+    stem: "PQTune.sp9863a.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/npidevice/PQTune.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_npidevice_libFactoryRadioTest_so",
+    stem: "libFactoryRadioTest.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/npidevice/libFactoryRadioTest.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_npidevice_libcheckkeybox_so",
+    stem: "libcheckkeybox.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/npidevice/libcheckkeybox.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_npidevice_libgetuid_so",
+    stem: "libgetuid.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/npidevice/libgetuid.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_egl_libGLESv1_CM_POWERVR_ROGUE_so",
+    stem: "libGLESv1_CM_POWERVR_ROGUE.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "egl",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/egl/libGLESv1_CM_POWERVR_ROGUE.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_egl_libEGL_POWERVR_ROGUE_so",
+    stem: "libEGL_POWERVR_ROGUE.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "egl",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/egl/libEGL_POWERVR_ROGUE.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_egl_libGLESv2_POWERVR_ROGUE_so",
+    stem: "libGLESv2_POWERVR_ROGUE.so",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "egl",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/egl/libGLESv2_POWERVR_ROGUE.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libstagefright_sprd_h264dec_so",
+    stem: "libstagefright_sprd_h264dec.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_h264dec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libbokeh_depth_so",
+    stem: "libbokeh_depth.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libbokeh_depth.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libusc_so",
+    stem: "libusc.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libusc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libwpa_client_so",
+    stem: "libwpa_client.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libwpa_client.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libawb1_so",
+    stem: "libawb1.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libawb1.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libengfm_so",
+    stem: "libengfm.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libengfm.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_camera_device_1_0_impl_so",
+    stem: "camera.device@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/camera.device@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_vendor_sprd_hardware_aprd_1_0_so",
+    stem: "vendor.sprd.hardware.aprd@1.0.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.aprd@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libbt_vendor_so",
+    stem: "libbt-vendor.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libbt-vendor.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libaudionpi_so",
+    stem: "libaudionpi.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libaudionpi.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libfmjni_so",
+    stem: "libfmjni.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libfmjni.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_liblcswbxml2_so",
+    stem: "liblcswbxml2.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/liblcswbxml2.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_camera_device_3_4_impl_sprd_so",
+    stem: "camera.device@3.4-impl-sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/camera.device@3.4-impl-sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libvbeffect_so",
+    stem: "libvbeffect.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libvbeffect.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libSegLite_so",
+    stem: "libSegLite.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libSegLite.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libresample48kto44k_so",
+    stem: "libresample48kto44k.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libresample48kto44k.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libmapuser_so",
+    stem: "libmapuser.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libmapuser.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libmemion_so",
+    stem: "libmemion.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libmemion.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libstagefright_soft_mjpgdec_so",
+    stem: "libstagefright_soft_mjpgdec.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libstagefright_soft_mjpgdec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_lib_remote_simlock_so",
+    stem: "lib_remote_simlock.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/lib_remote_simlock.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsensornpi_so",
+    stem: "libsensornpi.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsensornpi.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libomx_vpxdec_hw_sprd_so",
+    stem: "libomx_vpxdec_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libomx_vpxdec_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprdaudiohal_so",
+    stem: "libsprdaudiohal.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprdaudiohal.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libdrm_so",
+    stem: "libdrm.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libdrm.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libstagefright_sprd_mpeg4enc_so",
+    stem: "libstagefright_sprd_mpeg4enc.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_mpeg4enc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprdfaceid_so",
+    stem: "libsprdfaceid.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprdfaceid.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libtracedump_so",
+    stem: "libtracedump.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libtracedump.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libomx_avcdec_vt_sprd_so",
+    stem: "libomx_avcdec_vt_sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libomx_avcdec_vt_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprdcnr_so",
+    stem: "libsprdcnr.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprdcnr.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libcld80211_so",
+    stem: "libcld80211.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libcld80211.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libefuse_so",
+    stem: "libefuse.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libefuse.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libcamfb_so",
+    stem: "libcamfb.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libcamfb.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libnbaio_mono_so",
+    stem: "libnbaio_mono.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libnbaio_mono.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libdumpdata_so",
+    stem: "libdumpdata.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libdumpdata.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libpowerhal_cli_so",
+    stem: "libpowerhal_cli.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libpowerhal_cli.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libae_so",
+    stem: "libae.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libae.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libstagefright_sprd_h265dec_so",
+    stem: "libstagefright_sprd_h265dec.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_h265dec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libcampm_so",
+    stem: "libcampm.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libcampm.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libstagefright_sprd_mpeg4dec_so",
+    stem: "libstagefright_sprd_mpeg4dec.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_mpeg4dec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libhwc2on1adapter_so",
+    stem: "libhwc2on1adapter.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libhwc2on1adapter.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libSprdImageFilter_so",
+    stem: "libSprdImageFilter.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libSprdImageFilter.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libispalg_so",
+    stem: "libispalg.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libispalg.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libcambr_so",
+    stem: "libcambr.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libcambr.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsrv_um_so",
+    stem: "libsrv_um.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsrv_um.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libcamdrv_so",
+    stem: "libcamdrv.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libcamdrv.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libalsautils_so",
+    stem: "libalsautils.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libalsautils.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libnpi_rtc_so",
+    stem: "libnpi_rtc.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libnpi_rtc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libstagefright_sprd_h264enc_so",
+    stem: "libstagefright_sprd_h264enc.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_h264enc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libFMHalSource_so",
+    stem: "libFMHalSource.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libFMHalSource.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_camera_device_3_3_impl_so",
+    stem: "camera.device@3.3-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/camera.device@3.3-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libreference_ril_so",
+    stem: "libreference-ril.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libreference-ril.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_lib_factorytest_ft2_so",
+    stem: "lib_factorytest_ft2.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/lib_factorytest_ft2.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprd_ril_so",
+    stem: "libsprd-ril.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprd-ril.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libhwc2onfbadapter_so",
+    stem: "libhwc2onfbadapter.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libhwc2onfbadapter.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libcamcommon_so",
+    stem: "libcamcommon.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libcamcommon.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libstagefright_sprd_vpxdec_so",
+    stem: "libstagefright_sprd_vpxdec.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_vpxdec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprdfa_so",
+    stem: "libsprdfa.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprdfa.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsensorndkbridge_so",
+    stem: "libsensorndkbridge.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsensorndkbridge.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libSprdPdAlgo_so",
+    stem: "libSprdPdAlgo.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libSprdPdAlgo.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libril_threads_so",
+    stem: "libril_threads.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libril_threads.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libcreatesurface_so",
+    stem: "libcreatesurface.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libcreatesurface.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libaudioparamteser_so",
+    stem: "libaudioparamteser.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libaudioparamteser.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprd_ril_single_so",
+    stem: "libsprd-ril-single.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprd-ril-single.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libiwnpi_so",
+    stem: "libiwnpi.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libiwnpi.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libdeflicker_so",
+    stem: "libdeflicker.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libdeflicker.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libfprint_x32_so",
+    stem: "libfprint-x32.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libfprint-x32.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libcamoem_so",
+    stem: "libcamoem.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libcamoem.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libIMGegl_so",
+    stem: "libIMGegl.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libIMGegl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libcam_otp_parser_so",
+    stem: "libcam_otp_parser.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libcam_otp_parser.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libomx_hevcdec_hw_sprd_so",
+    stem: "libomx_hevcdec_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libomx_hevcdec_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprdaudiohal_deathhandler_so",
+    stem: "libsprdaudiohal_deathhandler.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprdaudiohal_deathhandler.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsmartamp_so",
+    stem: "libsmartamp.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsmartamp.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libatci_so",
+    stem: "libatci.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libatci.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libstagefright_soft_imaadpcmdec_so",
+    stem: "libstagefright_soft_imaadpcmdec.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libstagefright_soft_imaadpcmdec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libwifi_hal_so",
+    stem: "libwifi-hal.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libwifi-hal.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libwvhidl_so",
+    stem: "libwvhidl.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libwvhidl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libfacepose_so",
+    stem: "libfacepose.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libfacepose.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libstagefright_sprd_mp3enc_so",
+    stem: "libstagefright_sprd_mp3enc.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_mp3enc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libbokeh_gaussian_so",
+    stem: "libbokeh_gaussian.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libbokeh_gaussian.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libpvrANDROID_WSEGL_so",
+    stem: "libpvrANDROID_WSEGL.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libpvrANDROID_WSEGL.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprdaudiohal_4_0_so",
+    stem: "libsprdaudiohal@4.0.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprdaudiohal@4.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprdfar_so",
+    stem: "libsprdfar.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprdfar.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libtqvalidate_so",
+    stem: "libtqvalidate.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libtqvalidate.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libfaceid_ca_so",
+    stem: "libfaceid_ca.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libfaceid_ca.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libomx_mp3dec_sprd_so",
+    stem: "libomx_mp3dec_sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libomx_mp3dec_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libstagefright_sprd_h265enc_so",
+    stem: "libstagefright_sprd_h265enc.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_h265enc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsupl_so",
+    stem: "libsupl.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsupl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_librilutils_so",
+    stem: "librilutils.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/librilutils.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libomx_avcdec_hw_sprd_so",
+    stem: "libomx_avcdec_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libomx_avcdec_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_vendor_sprd_hardware_power_3_0_so",
+    stem: "vendor.sprd.hardware.power@3.0.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.power@3.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libbm_so",
+    stem: "libbm.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libbm.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprdhdr_so",
+    stem: "libsprdhdr.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprdhdr.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_camera_device_3_4_external_impl_so",
+    stem: "camera.device@3.4-external-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/camera.device@3.4-external-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libomx_m4vh263enc_sw_sprd_so",
+    stem: "libomx_m4vh263enc_sw_sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libomx_m4vh263enc_sw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libomx_avcenc_hw_sprd_so",
+    stem: "libomx_avcenc_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libomx_avcenc_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libcompresssimu_so",
+    stem: "libcompresssimu.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libcompresssimu.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libflash_so",
+    stem: "libflash.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libflash.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libomx_vpxenc_hw_sprd_so",
+    stem: "libomx_vpxenc_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libomx_vpxenc_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libPVRRS_sha1_so",
+    stem: "libPVRRS.sha1.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libPVRRS.sha1.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libstagefright_sprd_vp9dec_so",
+    stem: "libstagefright_sprd_vp9dec.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_vp9dec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_liblcscp_so",
+    stem: "liblcscp.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/liblcscp.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libbokeh_gaussian_cap_so",
+    stem: "libbokeh_gaussian_cap.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libbokeh_gaussian_cap.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libstagefright_sprd_mp3dec_so",
+    stem: "libstagefright_sprd_mp3dec.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_mp3dec.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libbqbbt_so",
+    stem: "libbqbbt.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libbqbbt.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libomx_vp9dec_hw_sprd_so",
+    stem: "libomx_vp9dec_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libomx_vp9dec_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libXMPCore_so",
+    stem: "libXMPCore.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libXMPCore.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_camera_device_3_3_impl_sprd_so",
+    stem: "camera.device@3.3-impl-sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/camera.device@3.3-impl-sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libDivRIL_so",
+    stem: "libDivRIL.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libDivRIL.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsutu_display_so",
+    stem: "libsutu_display.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsutu_display.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_vendor_sprd_hardware_gnss_2_0_so",
+    stem: "vendor.sprd.hardware.gnss@2.0.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.gnss@2.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprdaic_so",
+    stem: "libsprdaic.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprdaic.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libomx_avcdec_sw_sprd_so",
+    stem: "libomx_avcdec_sw_sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libomx_avcdec_sw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libPVRScopeServices_so",
+    stem: "libPVRScopeServices.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libPVRScopeServices.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_librilsprd_single_so",
+    stem: "librilsprd-single.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/librilsprd-single.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_camera_device_3_2_impl_sprd_so",
+    stem: "camera.device@3.2-impl-sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/camera.device@3.2-impl-sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libwebrtc_audio_preprocessing_so",
+    stem: "libwebrtc_audio_preprocessing.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libwebrtc_audio_preprocessing.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprdlsc_so",
+    stem: "libsprdlsc.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprdlsc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_liblcsmgt_so",
+    stem: "liblcsmgt.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/liblcsmgt.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_power_sprd_so",
+    stem: "power.sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/power.sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libomx_mp3enc_sprd_so",
+    stem: "libomx_mp3enc_sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libomx_mp3enc_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libteeproduction_so",
+    stem: "libteeproduction.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libteeproduction.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libPVRRS_so",
+    stem: "libPVRRS.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libPVRRS.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libeng_tok_so",
+    stem: "libeng_tok.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libeng_tok.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_vendor_sprd_hardware_fingerprintmmi_1_0_so",
+    stem: "vendor.sprd.hardware.fingerprintmmi@1.0.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.fingerprintmmi@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libeffects_so",
+    stem: "libeffects.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libeffects.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libAudioCustomMmi_so",
+    stem: "libAudioCustomMmi.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libAudioCustomMmi.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprdscenedetect_so",
+    stem: "libsprdscenedetect.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprdscenedetect.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_vendor_sprd_hardware_thermal_1_0_so",
+    stem: "vendor.sprd.hardware.thermal@1.0.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.thermal@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libnvexchange_so",
+    stem: "libnvexchange.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libnvexchange.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libomx_hevcenc_hw_sprd_so",
+    stem: "libomx_hevcenc_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libomx_hevcenc_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_camera_device_3_2_impl_so",
+    stem: "camera.device@3.2-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/camera.device@3.2-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libstagefright_sprd_deintl_so",
+    stem: "libstagefright_sprd_deintl.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_deintl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_vendor_sprd_hardware_log_1_0_so",
+    stem: "vendor.sprd.hardware.log@1.0.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.log@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libbt_sprd_suite_so",
+    stem: "libbt-sprd_suite.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libbt-sprd_suite.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_liblte_so",
+    stem: "liblte.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/liblte.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsensorsdrvcfg_so",
+    stem: "libsensorsdrvcfg.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsensorsdrvcfg.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libstagefrighthw_so",
+    stem: "libstagefrighthw.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libstagefrighthw.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libBokeh2Frames_so",
+    stem: "libBokeh2Frames.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libBokeh2Frames.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libengbt_so",
+    stem: "libengbt.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libengbt.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libatm_so",
+    stem: "libatm.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libatm.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libhdr_so",
+    stem: "libhdr.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libhdr.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libaudiomiscctl_so",
+    stem: "libaudiomiscctl.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libaudiomiscctl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprdbokeh_so",
+    stem: "libsprdbokeh.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprdbokeh.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprd_omx_core_so",
+    stem: "libsprd_omx_core.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprd_omx_core.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libyuv420_scaler_so",
+    stem: "libyuv420_scaler.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libyuv420_scaler.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libjpeg_hw_sprd_so",
+    stem: "libjpeg_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libjpeg_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libspafv1_so",
+    stem: "libspafv1.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libspafv1.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libXMPFiles_so",
+    stem: "libXMPFiles.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libXMPFiles.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprdfd_so",
+    stem: "libsprdfd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprdfd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_liblowi_wifihal_so",
+    stem: "liblowi_wifihal.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/liblowi_wifihal.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_liblsc_so",
+    stem: "liblsc.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/liblsc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libavservices_minijail_vendor_so",
+    stem: "libavservices_minijail_vendor.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libavservices_minijail_vendor.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libcamrt_so",
+    stem: "libcamrt.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libcamrt.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_librilsprd_so",
+    stem: "librilsprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/librilsprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libkeymaster3device_so",
+    stem: "libkeymaster3device.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libkeymaster3device.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_vendor_sprd_hardware_radio_flavor_1_0_so",
+    stem: "vendor.sprd.hardware.radio.flavor@1.0.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.radio.flavor@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libeffectsconfig_so",
+    stem: "libeffectsconfig.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libeffectsconfig.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_vendor_sprd_hardware_radio_1_0_so",
+    stem: "vendor.sprd.hardware.radio@1.0.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.radio@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libtinyalsa_utils_so",
+    stem: "libtinyalsa_utils.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libtinyalsa_utils.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libglslcompiler_so",
+    stem: "libglslcompiler.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libglslcompiler.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libcamsensor_so",
+    stem: "libcamsensor.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libcamsensor.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libvbpga_so",
+    stem: "libvbpga.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libvbpga.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_liblcsagent_so",
+    stem: "liblcsagent.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/liblcsagent.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libfactorylib_so",
+    stem: "libfactorylib.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libfactorylib.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsensorlistcfg_so",
+    stem: "libsensorlistcfg.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsensorlistcfg.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libomx_m4vh263dec_sw_sprd_so",
+    stem: "libomx_m4vh263dec_sw_sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libomx_m4vh263dec_sw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libspcaftrigger_so",
+    stem: "libspcaftrigger.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libspcaftrigger.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprdswisp_so",
+    stem: "libsprdswisp.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprdswisp.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libomx_m4vh263dec_hw_sprd_so",
+    stem: "libomx_m4vh263dec_hw_sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libomx_m4vh263dec_hw_sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprdfacebeauty_so",
+    stem: "libsprdfacebeauty.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprdfacebeauty.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libril_so",
+    stem: "libril.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libril.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_vendor_sprd_hardware_connmgr_1_0_so",
+    stem: "vendor.sprd.hardware.connmgr@1.0.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.connmgr@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsprddepth_so",
+    stem: "libsprddepth.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsprddepth.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libtrusty_so",
+    stem: "libtrusty.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libtrusty.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_vendor_sprd_hardware_enhance_1_0_so",
+    stem: "vendor.sprd.hardware.enhance@1.0.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.enhance@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_librpmbclient_so",
+    stem: "librpmbclient.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/librpmbclient.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_modules_tcs3430_ko",
+    stem: "tcs3430.ko",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "modules",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/modules/tcs3430.ko"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_modules_leds_sprd_bltc_rgb_ko",
+    stem: "leds-sprd-bltc-rgb.ko",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "modules",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/modules/leds-sprd-bltc-rgb.ko"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_modules_sprdbt_tty_ko",
+    stem: "sprdbt_tty.ko",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "modules",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/modules/sprdbt_tty.ko"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_modules_sprdwl_ng_ko",
+    stem: "sprdwl_ng.ko",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "modules",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/modules/sprdwl_ng.ko"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_modules_pvrsrvkm_ko",
+    stem: "pvrsrvkm.ko",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "modules",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/modules/pvrsrvkm.ko"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_modules_sprd_fm_ko",
+    stem: "sprd_fm.ko",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "modules",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/modules/sprd_fm.ko"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_modules_microarray_fp_ko",
+    stem: "microarray_fp.ko",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "modules",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/modules/microarray_fp.ko"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_modules_sprd_vibrator_ko",
+    stem: "sprd_vibrator.ko",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "modules",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/modules/sprd_vibrator.ko"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_mediadrm_libdrmclearkeyplugin_so",
+    stem: "libdrmclearkeyplugin.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "mediadrm",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_soundfx_libeffectproxy_so",
+    stem: "libeffectproxy.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/soundfx/libeffectproxy.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_soundfx_libdynproc_so",
+    stem: "libdynproc.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/soundfx/libdynproc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_soundfx_libdownmix_so",
+    stem: "libdownmix.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/soundfx/libdownmix.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_soundfx_libreverbwrapper_so",
+    stem: "libreverbwrapper.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/soundfx/libreverbwrapper.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_soundfx_libvisualizer_so",
+    stem: "libvisualizer.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/soundfx/libvisualizer.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_soundfx_libaudiopreprocessing_so",
+    stem: "libaudiopreprocessing.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/soundfx/libaudiopreprocessing.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_soundfx_libldnhncr_so",
+    stem: "libldnhncr.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/soundfx/libldnhncr.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_soundfx_libbundlewrapper_so",
+    stem: "libbundlewrapper.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "soundfx",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/soundfx/libbundlewrapper.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_production_libpubefuseapi_so",
+    stem: "libpubefuseapi.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "production",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/production/libpubefuseapi.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_camera_sp9863a_so",
+    stem: "camera.sp9863a.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/camera.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_vendor_sprd_hardware_aprd_1_0_impl_so",
+    stem: "vendor.sprd.hardware.aprd@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.aprd@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_gps_default_so",
+    stem: "gps.default.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/gps.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_dpu_sp9863a_so",
+    stem: "dpu.sp9863a.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/dpu.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_vendor_sprd_hardware_fingerprintmmi_1_0_impl_so",
+    stem: "vendor.sprd.hardware.fingerprintmmi@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.fingerprintmmi@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_gralloc_sp9863a_so",
+    stem: "gralloc.sp9863a.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/gralloc.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_keystore_sp9863a_so",
+    stem: "keystore.sp9863a.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/keystore.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_audio_4_0_impl_so",
+    stem: "android.hardware.audio@4.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.audio@4.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_sensors_sp9863a_so",
+    stem: "sensors.sp9863a.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/sensors.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_power_default_so",
+    stem: "power.default.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/power.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_gatekeeper_default_so",
+    stem: "gatekeeper.default.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/gatekeeper.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_face_default_so",
+    stem: "face.default.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/face.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_bluetooth_1_0_impl_unisoc_so",
+    stem: "android.hardware.bluetooth@1.0-impl-unisoc.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-unisoc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_vendor_sprd_hardware_power_3_0_impl_so",
+    stem: "vendor.sprd.hardware.power@3.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.power@3.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_vendor_sprd_hardware_connmgr_1_0_impl_so",
+    stem: "vendor.sprd.hardware.connmgr@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.connmgr@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_vendor_sprd_hardware_gnss_2_0_impl_so",
+    stem: "vendor.sprd.hardware.gnss@2.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.gnss@2.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_drm_1_0_impl_so",
+    stem: "android.hardware.drm@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.drm@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_vibrator_1_0_impl_so",
+    stem: "android.hardware.vibrator@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.vibrator@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_gsp_sp9863a_so",
+    stem: "gsp.sp9863a.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/gsp.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_consumerir_default_so",
+    stem: "consumerir.default.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/consumerir.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_lights_sp9863a_so",
+    stem: "lights.sp9863a.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/lights.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_audio_r_submix_default_so",
+    stem: "audio.r_submix.default.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/audio.r_submix.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_enhance_sp9863a_so",
+    stem: "enhance.sp9863a.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/enhance.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_fingerprint_default_so",
+    stem: "fingerprint.default.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/fingerprint.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_keymaster_3_0_impl_so",
+    stem: "android.hardware.keymaster@3.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_audio_primary_default_so",
+    stem: "audio.primary.default.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/audio.primary.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_camera_provider_2_4_impl_sprd_so",
+    stem: "android.hardware.camera.provider@2.4-impl-sprd.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl-sprd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_audio_effect_4_0_impl_so",
+    stem: "android.hardware.audio.effect@4.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_hwcomposer_sp9863a_so",
+    stem: "hwcomposer.sp9863a.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/hwcomposer.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_soundtrigger_2_0_impl_so",
+    stem: "android.hardware.soundtrigger@2.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_ir_1_0_impl_so",
+    stem: "android.hardware.ir@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.ir@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_audio_usb_default_so",
+    stem: "audio.usb.default.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/audio.usb.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_memtrack_1_0_impl_so",
+    stem: "android.hardware.memtrack@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_health_1_0_impl_so",
+    stem: "android.hardware.health@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.health@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_vendor_sprd_hardware_log_1_0_impl_so",
+    stem: "vendor.sprd.hardware.log@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.log@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_memtrack_sp9863a_so",
+    stem: "memtrack.sp9863a.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/memtrack.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_graphics_allocator_2_0_impl_so",
+    stem: "android.hardware.graphics.allocator@2.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_broadcastradio_1_0_impl_so",
+    stem: "android.hardware.broadcastradio@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.broadcastradio@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_graphics_mapper_2_0_impl_so",
+    stem: "android.hardware.graphics.mapper@2.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_local_time_default_so",
+    stem: "local_time.default.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/local_time.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_renderscript_1_0_impl_so",
+    stem: "android.hardware.renderscript@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.renderscript@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_sensors_1_0_impl_so",
+    stem: "android.hardware.sensors@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.sensors@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_graphics_composer_2_1_impl_so",
+    stem: "android.hardware.graphics.composer@2.1-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_vendor_sprd_hardware_enhance_1_0_impl_so",
+    stem: "vendor.sprd.hardware.enhance@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.enhance@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_gralloc_default_so",
+    stem: "gralloc.default.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/gralloc.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_keystore_sprdtrusty_so",
+    stem: "keystore.sprdtrusty.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/keystore.sprdtrusty.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_light_2_0_impl_so",
+    stem: "android.hardware.light@2.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.light@2.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_vendor_sprd_hardware_thermal_1_0_impl_so",
+    stem: "vendor.sprd.hardware.thermal@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.thermal@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_audio_primary_sp9863a_so",
+    stem: "audio.primary.sp9863a.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/audio.primary.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_bluetooth_a2dp_1_0_impl_unisoc_so",
+    stem: "android.hardware.bluetooth.a2dp@1.0-impl-unisoc.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth.a2dp@1.0-impl-unisoc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_thermal_default_so",
+    stem: "thermal.default.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/thermal.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_android_hardware_gatekeeper_1_0_impl_so",
+    stem: "android.hardware.gatekeeper@1.0-impl.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_vibrator_default_so",
+    stem: "vibrator.default.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/vibrator.default.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_mediacas_libclearkeycasplugin_so",
+    stem: "libclearkeycasplugin.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "mediacas",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/mediacas/libclearkeycasplugin.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_libdloader_so",
+    stem: "libdloader.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/libdloader.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_libtsxrawdata_so",
+    stem: "libtsxrawdata.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/libtsxrawdata.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_libkeypadnpi_so",
+    stem: "libkeypadnpi.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/libkeypadnpi.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_PQTune_sp9863a_so",
+    stem: "PQTune.sp9863a.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/PQTune.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_libfm_sprd_eut_so",
+    stem: "libfm-sprd_eut.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/libfm-sprd_eut.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_autotestfm_so",
+    stem: "autotestfm.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/autotestfm.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_autotestfinger_so",
+    stem: "autotestfinger.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/autotestfinger.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_libwifieut_so",
+    stem: "libwifieut.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/libwifieut.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_libcharge_so",
+    stem: "libcharge.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/libcharge.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_libapdeepsleep_so",
+    stem: "libapdeepsleep.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/libapdeepsleep.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_libreadfixednv_so",
+    stem: "libreadfixednv.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/libreadfixednv.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_libFactoryRadioTest_so",
+    stem: "libFactoryRadioTest.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/libFactoryRadioTest.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_autotestgps_so",
+    stem: "autotestgps.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/autotestgps.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_autotestwifi_so",
+    stem: "autotestwifi.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/autotestwifi.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_liblkvnpi_so",
+    stem: "liblkvnpi.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/liblkvnpi.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_libbt_sprd_eut_so",
+    stem: "libbt-sprd_eut.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/libbt-sprd_eut.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_libcheckkeybox_so",
+    stem: "libcheckkeybox.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/libcheckkeybox.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_autotestsim_so",
+    stem: "autotestsim.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/autotestsim.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_liblcdnpi_so",
+    stem: "liblcdnpi.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/liblcdnpi.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_autotesttcard_so",
+    stem: "autotesttcard.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/autotesttcard.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_autotestsensorinfo_so",
+    stem: "autotestsensorinfo.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/autotestsensorinfo.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_libgpio_so",
+    stem: "libgpio.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/libgpio.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_libgetuid_so",
+    stem: "libgetuid.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/libgetuid.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_nativemmifinger_so",
+    stem: "nativemmifinger.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/nativemmifinger.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_npidevice_libgpspc_so",
+    stem: "libgpspc.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "npidevice",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/npidevice/libgpspc.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_egl_libGLESv1_CM_POWERVR_ROGUE_so",
+    stem: "libGLESv1_CM_POWERVR_ROGUE.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "egl",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_egl_libEGL_POWERVR_ROGUE_so",
+    stem: "libEGL_POWERVR_ROGUE.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "egl",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/egl/libEGL_POWERVR_ROGUE.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_egl_libGLESv2_POWERVR_ROGUE_so",
+    stem: "libGLESv2_POWERVR_ROGUE.so",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "egl",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_slogmodem",
+    stem: "slogmodem",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/slogmodem"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_aprctl",
+    stem: "aprctl",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/aprctl"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_engpc",
+    stem: "engpc",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/engpc"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_charge",
+    stem: "charge",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/charge"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_modem_control",
+    stem: "modem_control",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/modem_control"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_ext_data",
+    stem: "ext_data",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/ext_data"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_cp_diskserver",
+    stem: "cp_diskserver",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/cp_diskserver"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_wifi_mac_gen",
+    stem: "wifi_mac_gen",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/wifi_mac_gen"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_srtd",
+    stem: "srtd",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/srtd"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_phasecheckserver",
+    stem: "phasecheckserver",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/phasecheckserver"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_thermald",
+    stem: "thermald",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/thermald"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_btools",
+    stem: "btools",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/btools"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_tsupplicant",
+    stem: "tsupplicant",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/tsupplicant"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_mlogservice",
+    stem: "mlogservice",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/mlogservice"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_connmgr_cli",
+    stem: "connmgr_cli",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/connmgr_cli"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_modemd",
+    stem: "modemd",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/modemd"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_refnotify",
+    stem: "refnotify",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/refnotify"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_iqfeed",
+    stem: "iqfeed",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/iqfeed"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_iwnpi",
+    stem: "iwnpi",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/iwnpi"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_pvrhtb2txt",
+    stem: "pvrhtb2txt",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/pvrhtb2txt"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_gpsd",
+    stem: "gpsd",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/gpsd"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_newfs_msdos",
+    stem: "newfs_msdos",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/newfs_msdos"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_pvrdebug",
+    stem: "pvrdebug",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/pvrdebug"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_connmgr",
+    stem: "connmgr",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/connmgr"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_rscompiler",
+    stem: "rscompiler",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/rscompiler"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_pvrtld",
+    stem: "pvrtld",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/pvrtld"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_rpmbserver",
+    stem: "rpmbserver",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/rpmbserver"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_systemDebuggerd",
+    stem: "systemDebuggerd",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/systemDebuggerd"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_factorytest",
+    stem: "factorytest",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/factorytest"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_cplogctl",
+    stem: "cplogctl",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/cplogctl"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_init_expand",
+    stem: "init_expand",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/init_expand"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_ylog_lite",
+    stem: "ylog_lite",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/ylog_lite"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_otpd",
+    stem: "otpd",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/otpd"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_flush_slog_modem",
+    stem: "flush_slog_modem",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/flush_slog_modem"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_sprdstorageproxyd",
+    stem: "sprdstorageproxyd",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/sprdstorageproxyd"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_ylog_lite_cli",
+    stem: "ylog_lite_cli",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/ylog_lite_cli"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_enhance_test",
+    stem: "enhance_test",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/enhance_test"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_hw_vendor_sprd_hardware_face_1_0_service",
+    stem: "vendor.sprd.hardware.face@1.0-service",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.face@1.0-service"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_hw_vendor_sprd_hardware_log_1_0_service",
+    stem: "vendor.sprd.hardware.log@1.0-service",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.log@1.0-service"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_hw_vendor_sprd_hardware_aprd_1_0_service",
+    stem: "vendor.sprd.hardware.aprd@1.0-service",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.aprd@1.0-service"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_hw_android_hardware_usb_1_1_service",
+    stem: "android.hardware.usb@1.1-service",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    overrides: ["android.hardware.usb@1.1-service"],
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.usb@1.1-service"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_hw_vendor_sprd_hardware_gnss_2_0_service",
+    stem: "vendor.sprd.hardware.gnss@2.0-service",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.gnss@2.0-service"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_hw_vendor_sprd_hardware_enhance_1_0_service",
+    stem: "vendor.sprd.hardware.enhance@1.0-service",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.enhance@1.0-service"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_hw_android_hardware_drm_1_1_service_widevine",
+    stem: "android.hardware.drm@1.1-service.widevine",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    overrides: ["android.hardware.drm@1.1-service.widevine"],
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_hw_sprdrild",
+    stem: "sprdrild",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/hw/sprdrild"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_hw_vendor_sprd_hardware_connmgr_1_0_service",
+    stem: "vendor.sprd.hardware.connmgr@1.0-service",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.connmgr@1.0-service"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_hw_android_hardware_bluetooth_1_0_service_unisoc",
+    stem: "android.hardware.bluetooth@1.0-service.unisoc",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    overrides: ["android.hardware.bluetooth@1.0-service.unisoc"],
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service.unisoc"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_hw_android_hardware_bluetooth_a2dp_1_0_service_unisoc",
+    stem: "android.hardware.bluetooth.a2dp@1.0-service.unisoc",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    overrides: ["android.hardware.bluetooth.a2dp@1.0-service.unisoc"],
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.bluetooth.a2dp@1.0-service.unisoc"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_hw_vendor_sprd_hardware_thermal_1_0_service",
+    stem: "vendor.sprd.hardware.thermal@1.0-service",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.thermal@1.0-service"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_hw_vendor_sprd_hardware_power_3_0_service",
+    stem: "vendor.sprd.hardware.power@3.0-service",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.power@3.0-service"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_backlight_bright",
+    stem: "bright",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/backlight/bright"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_ddr_fix_freq_fix_ddr_freq",
+    stem: "fix_ddr_freq",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/ddr/fix_freq/fix_ddr_freq"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_ddr_loading_ddr_loading",
+    stem: "ddr_loading",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/ddr/loading/ddr_loading"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_ddr_bm_tool_ddr_bm",
+    stem: "ddr_bm",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/ddr/bm/tool/ddr_bm"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_ddr_bm_tool_ddr_bm_log",
+    stem: "ddr_bm_log",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/ddr/bm/tool/ddr_bm_log"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_ddr_trans_table_ddr_trans_table",
+    stem: "ddr_trans_table",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/ddr/trans_table/ddr_trans_table"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_gpu_fix_freq_fix_gpu_freq",
+    stem: "fix_gpu_freq",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/gpu/fix_freq/fix_gpu_freq"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_gpu_loading_gpu_loading",
+    stem: "gpu_loading",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/gpu/loading/gpu_loading"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_gpu_trans_table_gpu_trans_table",
+    stem: "gpu_trans_table",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/gpu/trans_table/gpu_trans_table"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_paras_tool_power_ctrl",
+    stem: "power_ctrl",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/paras/tool/power_ctrl"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_paras_tool_power_hint",
+    stem: "power_hint",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/paras/tool/power_hint"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_paras_tool_paras",
+    stem: "paras",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/paras/tool/paras"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_interrupt_interrupt",
+    stem: "interrupt",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/interrupt/interrupt"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_tops_tops",
+    stem: "tops",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/tops/tops"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_loadings_tool_loading",
+    stem: "loading",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/loadings/tool/loading"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_frame_fps_sf",
+    stem: "fps_sf",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/frame/fps_sf"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_cpu_fix_freq_fix_cpu_freq",
+    stem: "fix_cpu_freq",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/cpu/fix_freq/fix_cpu_freq"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_cpu_dvfs_dvfs_table",
+    stem: "dvfs_table",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/cpu/dvfs/dvfs_table"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_cpu_lit_freq_lit_cpu_freq",
+    stem: "lit_cpu_freq",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/cpu/lit_freq/lit_cpu_freq"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_cpu_loading_cpu_loading",
+    stem: "cpu_loading",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/cpu/loading/cpu_loading"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_cpu_hotplug_cpu_hotplug",
+    stem: "cpu_hotplug",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/cpu/hotplug/cpu_hotplug"],
+}
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_power_cpu_trans_table_cpu_trans_table",
+    stem: "cpu_trans_table",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/bin/power/cpu/trans_table/cpu_trans_table"],
+}
