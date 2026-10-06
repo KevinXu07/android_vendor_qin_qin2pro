@@ -5962,3 +5962,77 @@ cc_prebuilt_binary {
     check_elf_files: false,
     srcs: ["proprietary/vendor/bin/power/cpu/trans_table/cpu_trans_table"],
 }
+
+// Qin2Pro WIP: AOSP-built compatibility libs replacing missing/broken vendor deps
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libmediautils_vendor_so",
+    stem: "libmediautils_vendor.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libmediautils_vendor.so"],
+}
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libmediautils_vendor_so",
+    stem: "libmediautils_vendor.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libmediautils_vendor.so"],
+}
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsoftkeymasterdevice_so",
+    stem: "libsoftkeymasterdevice.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsoftkeymasterdevice.so"],
+}
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libminijail_so",
+    stem: "libminijail.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libminijail.so"],
+}
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libhwbinder_so",
+    stem: "libhwbinder.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libhwbinder.so"],
+}
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libhwbinder_so",
+    stem: "libhwbinder.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libhwbinder.so"],
+}
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_android_hardware_radio_deprecated_1_0_so",
+    stem: "android.hardware.radio.deprecated@1.0.so",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/android.hardware.radio.deprecated@1.0.so"],
+}
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_android_hardware_radio_deprecated_1_0_so",
+    stem: "android.hardware.radio.deprecated@1.0.so",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/android.hardware.radio.deprecated@1.0.so"],
+}

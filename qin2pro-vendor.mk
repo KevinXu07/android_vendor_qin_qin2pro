@@ -1212,3 +1212,13 @@ PRODUCT_COPY_FILES += \
     vendor/qin/qin2pro/proprietary/vendor/usr/keylayout/adaptive_ts.kl:vendor/usr/keylayout/adaptive_ts.kl
 PRODUCT_COPY_FILES += \
     vendor/qin/qin2pro/proprietary/vendor/usr/keylayout/gpio-keys.kl:vendor/usr/keylayout/gpio-keys.kl
+
+# Qin2Pro WIP: AOSP-built compatibility libs (32-bit OMX/RIL + audio/keymaster deps)
+PRODUCT_PACKAGES += qin_vendor_lib64_libmediautils_vendor_so
+PRODUCT_PACKAGES += qin_vendor_lib_libmediautils_vendor_so
+PRODUCT_PACKAGES += qin_vendor_lib64_libsoftkeymasterdevice_so
+PRODUCT_PACKAGES += qin_vendor_lib_libminijail_so
+PRODUCT_PACKAGES += qin_vendor_lib_libhwbinder_so
+PRODUCT_PACKAGES += qin_vendor_lib64_libhwbinder_so
+PRODUCT_PACKAGES += qin_vendor_lib_android_hardware_radio_deprecated_1_0_so
+PRODUCT_PACKAGES += qin_vendor_lib64_android_hardware_radio_deprecated_1_0_so
