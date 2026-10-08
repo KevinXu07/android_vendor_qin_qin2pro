@@ -15,6 +15,7 @@ on post-fs-data
     chown bluetooth net_bt_admin /sys/class/rfkill/rfkill0/type
 
     insmod /vendor/lib/modules/sprd_fm.ko
+    # sprdwl_ng.ko intentionally not loaded here; android.hardware.wifi@1.0-service insmods it (EEXIST aborts HAL)
     mkdir /data/vendor/bluetooth 0770 bluetooth bluetooth
 
     chmod 660 /sys/devices/platform/wcn_bt/dumpmem

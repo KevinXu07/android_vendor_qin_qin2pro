@@ -28,15 +28,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/libusc.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libkeystore_engine_wifi_hidl_so",
-    stem: "libkeystore-engine-wifi-hidl",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_libawb1_so",
@@ -189,15 +180,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/libsprdaudiohal.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libdrm_so",
-    stem: "libdrm",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libdrm.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_libstagefright_sprd_mpeg4enc_so",
@@ -239,15 +221,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/libsprdcnr.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libcld80211_so",
-    stem: "libcld80211",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libcld80211.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_libefuse_so",
@@ -259,15 +232,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/libefuse.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libhwminijail_so",
-    stem: "libhwminijail",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libhwminijail.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_libcamfb_so",
@@ -279,15 +243,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/libcamfb.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libnbaio_mono_so",
-    stem: "libnbaio_mono",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libnbaio_mono.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_libpowerhal_cli_so",
@@ -339,15 +294,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/libstagefright_sprd_mpeg4dec.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libhwc2on1adapter_so",
-    stem: "libhwc2on1adapter",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libhwc2on1adapter.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_libSprdImageFilter_so",
@@ -419,15 +365,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/libkernelbootcp.trusty.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libalsautils_so",
-    stem: "libalsautils",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libalsautils.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_libstagefright_sprd_h264enc_so",
@@ -440,15 +377,6 @@ cc_prebuilt_library_shared {
 }
 
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libreference_ril_so",
-    stem: "libreference-ril",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libreference-ril.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_libsprd_ril_so",
@@ -460,15 +388,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/libsprd-ril.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libhwc2onfbadapter_so",
-    stem: "libhwc2onfbadapter",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libhwc2onfbadapter.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_libcamcommon_so",
@@ -500,15 +419,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/libsprdfa.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libsensorndkbridge_so",
-    stem: "libsensorndkbridge",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libsensorndkbridge.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_libSprdPdAlgo_so",
@@ -650,15 +560,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/libstagefright_soft_imaadpcmdec.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libwifi_hal_so",
-    stem: "libwifi-hal",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libwifi-hal.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_libfacepose_so",
@@ -760,15 +661,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/libsupl.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_librilutils_so",
-    stem: "librilutils",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/librilutils.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_libomx_avcdec_hw_sprd_so",
@@ -1091,25 +983,7 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/libeng_tok.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_vendor_sprd_hardware_fingerprintmmi_1_0_so",
-    stem: "vendor.sprd.hardware.fingerprintmmi@1.0",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.fingerprintmmi@1.0.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libeffects_so",
-    stem: "libeffects",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libeffects.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_libsprdscenedetect_so",
@@ -1332,15 +1206,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/liblsc.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libkeystore_wifi_hidl_so",
-    stem: "libkeystore-wifi-hidl",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libkeystore-wifi-hidl.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_libcamrt_so",
@@ -1362,15 +1227,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/librilsprd.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libkeymaster3device_so",
-    stem: "libkeymaster3device",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libkeymaster3device.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_vendor_sprd_hardware_radio_flavor_1_0_so",
@@ -1382,15 +1238,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.radio.flavor@1.0.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libeffectsconfig_so",
-    stem: "libeffectsconfig",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libeffectsconfig.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_vendor_sprd_hardware_radio_1_0_so",
@@ -1512,15 +1359,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/libsprdfacebeauty.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libril_so",
-    stem: "libril",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libril.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_vendor_sprd_hardware_connmgr_1_0_so",
@@ -1552,15 +1390,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.wifi.hostapd@1.0.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libtrusty_so",
-    stem: "libtrusty",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libtrusty.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_vendor_sprd_hardware_enhance_1_0_so",
@@ -1582,104 +1411,14 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/librpmbclient.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_mediadrm_libdrmclearkeyplugin_so",
-    stem: "libdrmclearkeyplugin",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "mediadrm",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_soundfx_libeffectproxy_so",
-    stem: "libeffectproxy",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/soundfx/libeffectproxy.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_soundfx_libdynproc_so",
-    stem: "libdynproc",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/soundfx/libdynproc.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_soundfx_libdownmix_so",
-    stem: "libdownmix",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/soundfx/libdownmix.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_soundfx_libreverbwrapper_so",
-    stem: "libreverbwrapper",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/soundfx/libreverbwrapper.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_soundfx_libvisualizer_so",
-    stem: "libvisualizer",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/soundfx/libvisualizer.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_soundfx_libaudiopreprocessing_so",
-    stem: "libaudiopreprocessing",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_soundfx_libldnhncr_so",
-    stem: "libldnhncr",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/soundfx/libldnhncr.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_soundfx_libbundlewrapper_so",
-    stem: "libbundlewrapper",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/soundfx/libbundlewrapper.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_production_libpubefuseapi_so",
@@ -1736,16 +1475,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/hw/dpu.sp9863a.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_hw_vendor_sprd_hardware_fingerprintmmi_1_0_impl_so",
-    stem: "vendor.sprd.hardware.fingerprintmmi@1.0-impl",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.fingerprintmmi@1.0-impl.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_hw_gralloc_sp9863a_so",
@@ -1781,16 +1510,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/hw/sensors.sp9863a.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_hw_power_default_so",
-    stem: "power.default",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/hw/power.default.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_hw_gatekeeper_default_so",
@@ -1803,16 +1522,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/hw/gatekeeper.default.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_hw_face_default_so",
-    stem: "face.default",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/hw/face.default.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_hw_android_hardware_bluetooth_1_0_impl_unisoc_so",
@@ -1870,16 +1579,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/hw/gsp.sp9863a.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_hw_consumerir_default_so",
-    stem: "consumerir.default",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/hw/consumerir.default.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_hw_lights_sp9863a_so",
@@ -1892,16 +1591,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/hw/lights.sp9863a.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_hw_audio_r_submix_default_so",
-    stem: "audio.r_submix.default",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/hw/audio.r_submix.default.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_hw_enhance_sp9863a_so",
@@ -1914,38 +1603,8 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/hw/enhance.sp9863a.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_hw_fingerprint_default_so",
-    stem: "fingerprint.default",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/hw/fingerprint.default.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_hw_android_hardware_keymaster_3_0_impl_so",
-    stem: "android.hardware.keymaster@3.0-impl",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_hw_audio_primary_default_so",
-    stem: "audio.primary.default",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/hw/audio.primary.default.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_hw_android_hardware_camera_provider_2_4_impl_sprd_so",
@@ -1971,16 +1630,6 @@ cc_prebuilt_library_shared {
 }
 
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_hw_audio_usb_default_so",
-    stem: "audio.usb.default",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/hw/audio.usb.default.so"],
-}
 
 
 cc_prebuilt_library_shared {
@@ -2019,16 +1668,6 @@ cc_prebuilt_library_shared {
 
 
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_hw_local_time_default_so",
-    stem: "local_time.default",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/hw/local_time.default.so"],
-}
 
 
 
@@ -2054,16 +1693,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.enhance@1.0-impl.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_hw_gralloc_default_so",
-    stem: "gralloc.default",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/hw/gralloc.default.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_hw_keystore_sprdtrusty_so",
@@ -2099,39 +1728,9 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/hw/android.hardware.bluetooth.a2dp@1.0-impl-unisoc.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_hw_thermal_default_so",
-    stem: "thermal.default",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/hw/thermal.default.so"],
-}
 
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_hw_vibrator_default_so",
-    stem: "vibrator.default",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/hw/vibrator.default.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_mediacas_libclearkeycasplugin_so",
-    stem: "libclearkeycasplugin",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "mediacas",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_npidevice_PQTune_sp9863a_so",
@@ -2240,15 +1839,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libusc.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libwpa_client_so",
-    stem: "libwpa_client",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libwpa_client.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_libawb1_so",
@@ -2270,15 +1860,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libengfm.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_camera_device_1_0_impl_so",
-    stem: "camera.device@1.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/camera.device@1.0-impl.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_vendor_sprd_hardware_aprd_1_0_so",
@@ -2440,15 +2021,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libsprdaudiohal.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libdrm_so",
-    stem: "libdrm",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libdrm.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_libstagefright_sprd_mpeg4enc_so",
@@ -2500,15 +2072,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libsprdcnr.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libcld80211_so",
-    stem: "libcld80211",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libcld80211.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_libefuse_so",
@@ -2530,15 +2093,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libcamfb.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libnbaio_mono_so",
-    stem: "libnbaio_mono",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libnbaio_mono.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_libdumpdata_so",
@@ -2600,15 +2154,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libstagefright_sprd_mpeg4dec.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libhwc2on1adapter_so",
-    stem: "libhwc2on1adapter",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libhwc2on1adapter.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_libSprdImageFilter_so",
@@ -2660,15 +2205,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libcamdrv.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libalsautils_so",
-    stem: "libalsautils",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libalsautils.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_libnpi_rtc_so",
@@ -2700,25 +2236,7 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libFMHalSource.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_camera_device_3_3_impl_so",
-    stem: "camera.device@3.3-impl",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/camera.device@3.3-impl.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libreference_ril_so",
-    stem: "libreference-ril",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libreference-ril.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_lib_factorytest_ft2_so",
@@ -2740,15 +2258,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libsprd-ril.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libhwc2onfbadapter_so",
-    stem: "libhwc2onfbadapter",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libhwc2onfbadapter.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_libcamcommon_so",
@@ -2780,15 +2289,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libsprdfa.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libsensorndkbridge_so",
-    stem: "libsensorndkbridge",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libsensorndkbridge.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_libSprdPdAlgo_so",
@@ -2950,15 +2450,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libstagefright_soft_imaadpcmdec.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libwifi_hal_so",
-    stem: "libwifi-hal",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libwifi-hal.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_libwvhidl_so",
@@ -3080,15 +2571,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libsupl.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_librilutils_so",
-    stem: "librilutils",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/librilutils.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_libomx_avcdec_hw_sprd_so",
@@ -3130,15 +2612,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libsprdhdr.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_camera_device_3_4_external_impl_so",
-    stem: "camera.device@3.4-external-impl",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/camera.device@3.4-external-impl.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_libomx_m4vh263enc_sw_sprd_so",
@@ -3440,25 +2913,7 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libeng_tok.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_vendor_sprd_hardware_fingerprintmmi_1_0_so",
-    stem: "vendor.sprd.hardware.fingerprintmmi@1.0",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.fingerprintmmi@1.0.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libeffects_so",
-    stem: "libeffects",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libeffects.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_libAudioCustomMmi_so",
@@ -3510,15 +2965,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libomx_hevcenc_hw_sprd.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_camera_device_3_2_impl_so",
-    stem: "camera.device@3.2-impl",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/camera.device@3.2-impl.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_libstagefright_sprd_deintl_so",
@@ -3720,15 +3166,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/liblsc.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libavservices_minijail_vendor_so",
-    stem: "libavservices_minijail_vendor",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libavservices_minijail_vendor.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_libcamrt_so",
@@ -3750,15 +3187,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/librilsprd.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libkeymaster3device_so",
-    stem: "libkeymaster3device",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libkeymaster3device.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_vendor_sprd_hardware_radio_flavor_1_0_so",
@@ -3770,15 +3198,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.radio.flavor@1.0.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libeffectsconfig_so",
-    stem: "libeffectsconfig",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libeffectsconfig.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_vendor_sprd_hardware_radio_1_0_so",
@@ -3910,15 +3329,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libsprdfacebeauty.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libril_so",
-    stem: "libril",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libril.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_vendor_sprd_hardware_connmgr_1_0_so",
@@ -3940,15 +3350,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/libsprddepth.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libtrusty_so",
-    stem: "libtrusty",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libtrusty.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_vendor_sprd_hardware_enhance_1_0_so",
@@ -3970,192 +3371,22 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/librpmbclient.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_modules_tcs3430_ko",
-    stem: "tcs3430.ko",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "modules",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/modules/tcs3430.ko"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_modules_leds_sprd_bltc_rgb_ko",
-    stem: "leds-sprd-bltc-rgb.ko",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "modules",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/modules/leds-sprd-bltc-rgb.ko"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_modules_sprdbt_tty_ko",
-    stem: "sprdbt_tty.ko",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "modules",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/modules/sprdbt_tty.ko"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_modules_sprdwl_ng_ko",
-    stem: "sprdwl_ng.ko",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "modules",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/modules/sprdwl_ng.ko"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_modules_pvrsrvkm_ko",
-    stem: "pvrsrvkm.ko",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "modules",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/modules/pvrsrvkm.ko"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_modules_sprd_fm_ko",
-    stem: "sprd_fm.ko",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "modules",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/modules/sprd_fm.ko"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_modules_microarray_fp_ko",
-    stem: "microarray_fp.ko",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "modules",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/modules/microarray_fp.ko"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_modules_sprd_vibrator_ko",
-    stem: "sprd_vibrator.ko",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "modules",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/modules/sprd_vibrator.ko"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_mediadrm_libdrmclearkeyplugin_so",
-    stem: "libdrmclearkeyplugin",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "mediadrm",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_soundfx_libeffectproxy_so",
-    stem: "libeffectproxy",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/soundfx/libeffectproxy.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_soundfx_libdynproc_so",
-    stem: "libdynproc",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/soundfx/libdynproc.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_soundfx_libdownmix_so",
-    stem: "libdownmix",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/soundfx/libdownmix.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_soundfx_libreverbwrapper_so",
-    stem: "libreverbwrapper",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/soundfx/libreverbwrapper.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_soundfx_libvisualizer_so",
-    stem: "libvisualizer",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/soundfx/libvisualizer.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_soundfx_libaudiopreprocessing_so",
-    stem: "libaudiopreprocessing",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/soundfx/libaudiopreprocessing.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_soundfx_libldnhncr_so",
-    stem: "libldnhncr",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/soundfx/libldnhncr.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_soundfx_libbundlewrapper_so",
-    stem: "libbundlewrapper",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "soundfx",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/soundfx/libbundlewrapper.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_production_libpubefuseapi_so",
@@ -4212,16 +3443,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/hw/dpu.sp9863a.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_vendor_sprd_hardware_fingerprintmmi_1_0_impl_so",
-    stem: "vendor.sprd.hardware.fingerprintmmi@1.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.fingerprintmmi@1.0-impl.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_hw_gralloc_sp9863a_so",
@@ -4245,16 +3466,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/hw/keystore.sp9863a.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_android_hardware_audio_4_0_impl_so",
-    stem: "android.hardware.audio@4.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.audio@4.0-impl.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_hw_sensors_sp9863a_so",
@@ -4267,16 +3478,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/hw/sensors.sp9863a.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_power_default_so",
-    stem: "power.default",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/power.default.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_hw_gatekeeper_default_so",
@@ -4289,16 +3490,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/hw/gatekeeper.default.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_face_default_so",
-    stem: "face.default",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/face.default.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_hw_android_hardware_bluetooth_1_0_impl_unisoc_so",
@@ -4344,27 +3535,7 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.gnss@2.0-impl.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_android_hardware_drm_1_0_impl_so",
-    stem: "android.hardware.drm@1.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.drm@1.0-impl.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_android_hardware_vibrator_1_0_impl_so",
-    stem: "android.hardware.vibrator@1.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.vibrator@1.0-impl.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_hw_gsp_sp9863a_so",
@@ -4377,16 +3548,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/hw/gsp.sp9863a.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_consumerir_default_so",
-    stem: "consumerir.default",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/consumerir.default.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_hw_lights_sp9863a_so",
@@ -4399,16 +3560,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/hw/lights.sp9863a.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_audio_r_submix_default_so",
-    stem: "audio.r_submix.default",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/audio.r_submix.default.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_hw_enhance_sp9863a_so",
@@ -4421,38 +3572,8 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/hw/enhance.sp9863a.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_fingerprint_default_so",
-    stem: "fingerprint.default",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/fingerprint.default.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_android_hardware_keymaster_3_0_impl_so",
-    stem: "android.hardware.keymaster@3.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_audio_primary_default_so",
-    stem: "audio.primary.default",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/audio.primary.default.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_hw_android_hardware_camera_provider_2_4_impl_sprd_so",
@@ -4465,16 +3586,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl-sprd.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_android_hardware_audio_effect_4_0_impl_so",
-    stem: "android.hardware.audio.effect@4.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_hw_hwcomposer_sp9863a_so",
@@ -4487,49 +3598,9 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/hw/hwcomposer.sp9863a.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_android_hardware_soundtrigger_2_0_impl_so",
-    stem: "android.hardware.soundtrigger@2.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.0-impl.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_android_hardware_ir_1_0_impl_so",
-    stem: "android.hardware.ir@1.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.ir@1.0-impl.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_audio_usb_default_so",
-    stem: "audio.usb.default",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/audio.usb.default.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_android_hardware_memtrack_1_0_impl_so",
-    stem: "android.hardware.memtrack@1.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_hw_android_hardware_health_1_0_impl_so",
@@ -4564,71 +3635,11 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/hw/memtrack.sp9863a.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_android_hardware_graphics_allocator_2_0_impl_so",
-    stem: "android.hardware.graphics.allocator@2.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_android_hardware_broadcastradio_1_0_impl_so",
-    stem: "android.hardware.broadcastradio@1.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.broadcastradio@1.0-impl.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_android_hardware_graphics_mapper_2_0_impl_so",
-    stem: "android.hardware.graphics.mapper@2.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_local_time_default_so",
-    stem: "local_time.default",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/local_time.default.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_android_hardware_renderscript_1_0_impl_so",
-    stem: "android.hardware.renderscript@1.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.renderscript@1.0-impl.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_android_hardware_sensors_1_0_impl_so",
-    stem: "android.hardware.sensors@1.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.sensors@1.0-impl.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_hw_android_hardware_graphics_composer_2_1_impl_so",
@@ -4652,16 +3663,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.enhance@1.0-impl.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_gralloc_default_so",
-    stem: "gralloc.default",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/gralloc.default.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_hw_keystore_sprdtrusty_so",
@@ -4674,16 +3675,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/hw/keystore.sprdtrusty.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_android_hardware_light_2_0_impl_so",
-    stem: "android.hardware.light@2.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.light@2.0-impl.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_hw_vendor_sprd_hardware_thermal_1_0_impl_so",
@@ -4696,16 +3687,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.thermal@1.0-impl.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_audio_primary_sp9863a_so",
-    stem: "audio.primary.sp9863a",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/audio.primary.sp9863a.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_hw_android_hardware_bluetooth_a2dp_1_0_impl_unisoc_so",
@@ -4718,49 +3699,9 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth.a2dp@1.0-impl-unisoc.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_thermal_default_so",
-    stem: "thermal.default",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/thermal.default.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_android_hardware_gatekeeper_1_0_impl_so",
-    stem: "android.hardware.gatekeeper@1.0-impl",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_vibrator_default_so",
-    stem: "vibrator.default",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/vibrator.default.so"],
-}
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_mediacas_libclearkeycasplugin_so",
-    stem: "libclearkeycasplugin",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "mediacas",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/mediacas/libclearkeycasplugin.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_npidevice_libdloader_so",
@@ -5809,33 +4750,6 @@ cc_prebuilt_binary {
 
 // Qin2Pro WIP: AOSP-built compatibility libs replacing missing/broken vendor deps
 cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libmediautils_vendor_so",
-    stem: "libmediautils_vendor",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libmediautils_vendor.so"],
-}
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libmediautils_vendor_so",
-    stem: "libmediautils_vendor",
-    vendor: true,
-    compile_multilib: "32",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libmediautils_vendor.so"],
-}
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libsoftkeymasterdevice_so",
-    stem: "libsoftkeymasterdevice",
-    vendor: true,
-    compile_multilib: "64",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libsoftkeymasterdevice.so"],
-}
-cc_prebuilt_library_shared {
     name: "qin_vendor_lib_libminijail_so",
     stem: "libminijail",
     vendor: true,
@@ -5844,21 +4758,68 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
     srcs: ["proprietary/vendor/lib/libminijail.so"],
 }
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_libhwbinder_so",
-    stem: "libhwbinder",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cc_prebuilt_binary {
+    name: "qin_vendor_bin_hw_android_hardware_audio_2_0_service",
+    stem: "android.hardware.audio@2.0-service",
     vendor: true,
     compile_multilib: "32",
+    relative_install_path: "hw",
     strip: { none: true },
     check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/libhwbinder.so"],
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.audio@2.0-service"],
 }
+
 cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_libhwbinder_so",
-    stem: "libhwbinder",
+    name: "qin_vendor_lib_hw_audio_primary_sp9863a_so",
+    stem: "audio.primary.sp9863a",
     vendor: true,
-    compile_multilib: "64",
+    compile_multilib: "32",
+    relative_install_path: "hw",
     strip: { none: true },
     check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/libhwbinder.so"],
+    srcs: ["proprietary/vendor/lib/hw/audio.primary.sp9863a.so"],
 }
+
+
+
+
+

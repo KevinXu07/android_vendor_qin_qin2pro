@@ -11,6 +11,7 @@ service vendor.tsupplicant /vendor/bin/tsupplicant firmware
     class core
     user system
     group system
+    disabled
 
 service vendor.tsupplicant-cali /vendor/bin/tsupplicant firmware
     class cali

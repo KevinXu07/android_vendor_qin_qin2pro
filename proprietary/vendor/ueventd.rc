@@ -78,3 +78,9 @@
 /sys/devices/platform/soc/soc:aon/41800000.spi/spi_master/spi0/spi0.0/sc27xx-bltc*/leds/sc27xx:red hw_pattern 0660 system system
 /sys/devices/platform/soc/soc:aon/41800000.spi/spi_master/spi0/spi0.0/sc27xx-bltc*/leds/sc27xx:green hw_pattern 0660 system system
 /sys/devices/platform/soc/soc:aon/41800000.spi/spi_master/spi0/spi0.0/sc27xx-bltc*/leds/sc27xx:blue hw_pattern 0660 system system
+
+# Qin2Pro WIP: GPU + BT device node permissions
+/dev/ion                  0666   system     graphics
+/dev/pvr_sync             0666   system     graphics
+/dev/dri/*                0666   system     graphics
+/dev/ttyBT*               0660   bluetooth  bluetooth

@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += qin_vendor_bin_hw_android_hardware_bluetooth_1_0_service_uni
 PRODUCT_PACKAGES += qin_vendor_bin_hw_android_hardware_bluetooth_a2dp_1_0_service_unisoc
 PRODUCT_PACKAGES += qin_vendor_bin_hw_android_hardware_drm_1_1_service_widevine
 PRODUCT_PACKAGES += qin_vendor_bin_hw_android_hardware_usb_1_1_service
+PRODUCT_PACKAGES += qin_vendor_bin_hw_android_hardware_audio_2_0_service
 PRODUCT_PACKAGES += qin_vendor_bin_hw_sprdrild
 PRODUCT_PACKAGES += qin_vendor_bin_hw_vendor_sprd_hardware_aprd_1_0_service
 PRODUCT_PACKAGES += qin_vendor_bin_hw_vendor_sprd_hardware_connmgr_1_0_service
@@ -85,39 +86,26 @@ PRODUCT_PACKAGES += qin_vendor_lib64_hw_android_hardware_bluetooth_a2dp_1_0_impl
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_android_hardware_camera_provider_2_4_impl_sprd_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_android_hardware_graphics_composer_2_1_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_android_hardware_health_1_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib64_hw_android_hardware_keymaster_3_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib64_hw_audio_primary_default_so
-PRODUCT_PACKAGES += qin_vendor_lib64_hw_audio_r_submix_default_so
-PRODUCT_PACKAGES += qin_vendor_lib64_hw_audio_usb_default_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_camera_sp9863a_so
-PRODUCT_PACKAGES += qin_vendor_lib64_hw_consumerir_default_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_dpu_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_enhance_sp9863a_so
-PRODUCT_PACKAGES += qin_vendor_lib64_hw_face_default_so
-PRODUCT_PACKAGES += qin_vendor_lib64_hw_fingerprint_default_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_gatekeeper_default_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_gps_default_so
-PRODUCT_PACKAGES += qin_vendor_lib64_hw_gralloc_default_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_gralloc_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_gsp_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_hwcomposer_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_keystore_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_keystore_sprdtrusty_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_lights_sp9863a_so
-PRODUCT_PACKAGES += qin_vendor_lib64_hw_local_time_default_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_memtrack_sp9863a_so
-PRODUCT_PACKAGES += qin_vendor_lib64_hw_power_default_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_sensors_sp9863a_so
-PRODUCT_PACKAGES += qin_vendor_lib64_hw_thermal_default_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_vendor_sprd_hardware_aprd_1_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_vendor_sprd_hardware_connmgr_1_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_vendor_sprd_hardware_enhance_1_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib64_hw_vendor_sprd_hardware_fingerprintmmi_1_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_vendor_sprd_hardware_gnss_2_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_vendor_sprd_hardware_log_1_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_vendor_sprd_hardware_power_3_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_vendor_sprd_hardware_thermal_1_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib64_hw_vibrator_default_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libBokeh2Frames_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libDivRIL_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libIMGegl_so
@@ -131,7 +119,6 @@ PRODUCT_PACKAGES += qin_vendor_lib64_libXMPCore_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libXMPFiles_so
 PRODUCT_PACKAGES += qin_vendor_lib64_lib_remote_simlock_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libae_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libalsautils_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libatci_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libatm_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libaudionpi_so
@@ -151,12 +138,8 @@ PRODUCT_PACKAGES += qin_vendor_lib64_libcamoem_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libcampm_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libcamrt_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libcamsensor_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libcld80211_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libcreatesurface_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libdeflicker_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libdrm_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libeffects_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libeffectsconfig_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libefuse_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libeng_tok_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libfaceid_ca_so
@@ -166,16 +149,10 @@ PRODUCT_PACKAGES += qin_vendor_lib64_libflash_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libfprint_x64_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libglslcompiler_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libhdr_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libhwc2on1adapter_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libhwc2onfbadapter_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libhwminijail_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libispalg_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libiwnpi_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libjpeg_hw_sprd_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libkernelbootcp_trusty_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libkeymaster3device_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libkeystore_engine_wifi_hidl_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libkeystore_wifi_hidl_so
 PRODUCT_PACKAGES += qin_vendor_lib64_liblcsagent_so
 PRODUCT_PACKAGES += qin_vendor_lib64_liblcscp_so
 PRODUCT_PACKAGES += qin_vendor_lib64_liblcsmgt_so
@@ -185,7 +162,6 @@ PRODUCT_PACKAGES += qin_vendor_lib64_liblsc_so
 PRODUCT_PACKAGES += qin_vendor_lib64_liblte_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libmapuser_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libmemion_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libnbaio_mono_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libnvexchange_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libomx_avcdec_hw_sprd_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libomx_avcdec_sw_sprd_so
@@ -202,15 +178,11 @@ PRODUCT_PACKAGES += qin_vendor_lib64_libomx_vpxdec_hw_sprd_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libomx_vpxenc_hw_sprd_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libpowerhal_cli_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libpvrANDROID_WSEGL_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libreference_ril_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libril_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libril_threads_so
 PRODUCT_PACKAGES += qin_vendor_lib64_librilsprd_single_so
 PRODUCT_PACKAGES += qin_vendor_lib64_librilsprd_so
-PRODUCT_PACKAGES += qin_vendor_lib64_librilutils_so
 PRODUCT_PACKAGES += qin_vendor_lib64_librpmbclient_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libsensorlistcfg_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libsensorndkbridge_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libsensornpi_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libsensorsdrvcfg_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libspafv1_so
@@ -253,33 +225,20 @@ PRODUCT_PACKAGES += qin_vendor_lib64_libsupl_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libsutu_display_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libteeproduction_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libtqvalidate_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libtrusty_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libusc_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libvbeffect_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libwebrtc_audio_preprocessing_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libwifi_hal_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libyuv420_scaler_so
-PRODUCT_PACKAGES += qin_vendor_lib64_mediacas_libclearkeycasplugin_so
-PRODUCT_PACKAGES += qin_vendor_lib64_mediadrm_libdrmclearkeyplugin_so
 PRODUCT_PACKAGES += qin_vendor_lib64_npidevice_PQTune_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib64_npidevice_libFactoryRadioTest_so
 PRODUCT_PACKAGES += qin_vendor_lib64_npidevice_libcheckkeybox_so
 PRODUCT_PACKAGES += qin_vendor_lib64_npidevice_libgetuid_so
 PRODUCT_PACKAGES += qin_vendor_lib64_power_sprd_so
 PRODUCT_PACKAGES += qin_vendor_lib64_production_libpubefuseapi_so
-PRODUCT_PACKAGES += qin_vendor_lib64_soundfx_libaudiopreprocessing_so
-PRODUCT_PACKAGES += qin_vendor_lib64_soundfx_libbundlewrapper_so
-PRODUCT_PACKAGES += qin_vendor_lib64_soundfx_libdownmix_so
-PRODUCT_PACKAGES += qin_vendor_lib64_soundfx_libdynproc_so
-PRODUCT_PACKAGES += qin_vendor_lib64_soundfx_libeffectproxy_so
-PRODUCT_PACKAGES += qin_vendor_lib64_soundfx_libldnhncr_so
-PRODUCT_PACKAGES += qin_vendor_lib64_soundfx_libreverbwrapper_so
-PRODUCT_PACKAGES += qin_vendor_lib64_soundfx_libvisualizer_so
 PRODUCT_PACKAGES += qin_vendor_lib64_vendor_sprd_hardware_aprd_1_0_so
 PRODUCT_PACKAGES += qin_vendor_lib64_vendor_sprd_hardware_connmgr_1_0_so
 PRODUCT_PACKAGES += qin_vendor_lib64_vendor_sprd_hardware_enhance_1_0_so
 PRODUCT_PACKAGES += qin_vendor_lib64_vendor_sprd_hardware_face_1_0_so
-PRODUCT_PACKAGES += qin_vendor_lib64_vendor_sprd_hardware_fingerprintmmi_1_0_so
 PRODUCT_PACKAGES += qin_vendor_lib64_vendor_sprd_hardware_gnss_2_0_so
 PRODUCT_PACKAGES += qin_vendor_lib64_vendor_sprd_hardware_log_1_0_so
 PRODUCT_PACKAGES += qin_vendor_lib64_vendor_sprd_hardware_power_3_0_so
@@ -288,69 +247,38 @@ PRODUCT_PACKAGES += qin_vendor_lib64_vendor_sprd_hardware_radio_flavor_1_0_so
 PRODUCT_PACKAGES += qin_vendor_lib64_vendor_sprd_hardware_thermal_1_0_so
 PRODUCT_PACKAGES += qin_vendor_lib64_vendor_sprd_hardware_wifi_hostapd_1_0_so
 PRODUCT_PACKAGES += qin_vendor_lib64_vendor_sprd_hardware_wifi_supplicant_1_1_so
-PRODUCT_PACKAGES += qin_vendor_lib_camera_device_1_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_camera_device_3_2_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib_camera_device_3_2_impl_sprd_so
-PRODUCT_PACKAGES += qin_vendor_lib_camera_device_3_3_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib_camera_device_3_3_impl_sprd_so
-PRODUCT_PACKAGES += qin_vendor_lib_camera_device_3_4_external_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib_camera_device_3_4_impl_sprd_so
 PRODUCT_PACKAGES += qin_vendor_lib_egl_libEGL_POWERVR_ROGUE_so
 PRODUCT_PACKAGES += qin_vendor_lib_egl_libGLESv1_CM_POWERVR_ROGUE_so
 PRODUCT_PACKAGES += qin_vendor_lib_egl_libGLESv2_POWERVR_ROGUE_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_audio_4_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_audio_effect_4_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_bluetooth_1_0_impl_unisoc_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_bluetooth_a2dp_1_0_impl_unisoc_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_broadcastradio_1_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_camera_provider_2_4_impl_sprd_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_drm_1_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_gatekeeper_1_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_graphics_allocator_2_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_graphics_composer_2_1_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_graphics_mapper_2_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_health_1_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_ir_1_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_keymaster_3_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_light_2_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_memtrack_1_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_renderscript_1_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_sensors_1_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_soundtrigger_2_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_vibrator_1_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_audio_primary_default_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_audio_primary_sp9863a_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_audio_r_submix_default_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_audio_usb_default_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_camera_sp9863a_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_consumerir_default_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_dpu_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_enhance_sp9863a_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_face_default_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_fingerprint_default_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_gatekeeper_default_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_gps_default_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_gralloc_default_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_gralloc_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_gsp_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_hwcomposer_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_keystore_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_keystore_sprdtrusty_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_lights_sp9863a_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_local_time_default_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_memtrack_sp9863a_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_power_default_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_sensors_sp9863a_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_thermal_default_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_vendor_sprd_hardware_aprd_1_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_vendor_sprd_hardware_connmgr_1_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_vendor_sprd_hardware_enhance_1_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_vendor_sprd_hardware_fingerprintmmi_1_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_vendor_sprd_hardware_gnss_2_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_vendor_sprd_hardware_log_1_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_vendor_sprd_hardware_power_3_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_vendor_sprd_hardware_thermal_1_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_vibrator_default_so
 PRODUCT_PACKAGES += qin_vendor_lib_libAudioCustomMmi_so
 PRODUCT_PACKAGES += qin_vendor_lib_libBokeh2Frames_so
 PRODUCT_PACKAGES += qin_vendor_lib_libDivRIL_so
@@ -367,13 +295,11 @@ PRODUCT_PACKAGES += qin_vendor_lib_libXMPFiles_so
 PRODUCT_PACKAGES += qin_vendor_lib_lib_factorytest_ft2_so
 PRODUCT_PACKAGES += qin_vendor_lib_lib_remote_simlock_so
 PRODUCT_PACKAGES += qin_vendor_lib_libae_so
-PRODUCT_PACKAGES += qin_vendor_lib_libalsautils_so
 PRODUCT_PACKAGES += qin_vendor_lib_libatci_so
 PRODUCT_PACKAGES += qin_vendor_lib_libatm_so
 PRODUCT_PACKAGES += qin_vendor_lib_libaudiomiscctl_so
 PRODUCT_PACKAGES += qin_vendor_lib_libaudionpi_so
 PRODUCT_PACKAGES += qin_vendor_lib_libaudioparamteser_so
-PRODUCT_PACKAGES += qin_vendor_lib_libavservices_minijail_vendor_so
 PRODUCT_PACKAGES += qin_vendor_lib_libawb1_so
 PRODUCT_PACKAGES += qin_vendor_lib_libbm_so
 PRODUCT_PACKAGES += qin_vendor_lib_libbokeh_depth_so
@@ -391,14 +317,10 @@ PRODUCT_PACKAGES += qin_vendor_lib_libcamoem_so
 PRODUCT_PACKAGES += qin_vendor_lib_libcampm_so
 PRODUCT_PACKAGES += qin_vendor_lib_libcamrt_so
 PRODUCT_PACKAGES += qin_vendor_lib_libcamsensor_so
-PRODUCT_PACKAGES += qin_vendor_lib_libcld80211_so
 PRODUCT_PACKAGES += qin_vendor_lib_libcompresssimu_so
 PRODUCT_PACKAGES += qin_vendor_lib_libcreatesurface_so
 PRODUCT_PACKAGES += qin_vendor_lib_libdeflicker_so
-PRODUCT_PACKAGES += qin_vendor_lib_libdrm_so
 PRODUCT_PACKAGES += qin_vendor_lib_libdumpdata_so
-PRODUCT_PACKAGES += qin_vendor_lib_libeffects_so
-PRODUCT_PACKAGES += qin_vendor_lib_libeffectsconfig_so
 PRODUCT_PACKAGES += qin_vendor_lib_libefuse_so
 PRODUCT_PACKAGES += qin_vendor_lib_libeng_tok_so
 PRODUCT_PACKAGES += qin_vendor_lib_libengbt_so
@@ -411,12 +333,9 @@ PRODUCT_PACKAGES += qin_vendor_lib_libfmjni_so
 PRODUCT_PACKAGES += qin_vendor_lib_libfprint_x32_so
 PRODUCT_PACKAGES += qin_vendor_lib_libglslcompiler_so
 PRODUCT_PACKAGES += qin_vendor_lib_libhdr_so
-PRODUCT_PACKAGES += qin_vendor_lib_libhwc2on1adapter_so
-PRODUCT_PACKAGES += qin_vendor_lib_libhwc2onfbadapter_so
 PRODUCT_PACKAGES += qin_vendor_lib_libispalg_so
 PRODUCT_PACKAGES += qin_vendor_lib_libiwnpi_so
 PRODUCT_PACKAGES += qin_vendor_lib_libjpeg_hw_sprd_so
-PRODUCT_PACKAGES += qin_vendor_lib_libkeymaster3device_so
 PRODUCT_PACKAGES += qin_vendor_lib_liblcsagent_so
 PRODUCT_PACKAGES += qin_vendor_lib_liblcscp_so
 PRODUCT_PACKAGES += qin_vendor_lib_liblcsmgt_so
@@ -426,7 +345,6 @@ PRODUCT_PACKAGES += qin_vendor_lib_liblsc_so
 PRODUCT_PACKAGES += qin_vendor_lib_liblte_so
 PRODUCT_PACKAGES += qin_vendor_lib_libmapuser_so
 PRODUCT_PACKAGES += qin_vendor_lib_libmemion_so
-PRODUCT_PACKAGES += qin_vendor_lib_libnbaio_mono_so
 PRODUCT_PACKAGES += qin_vendor_lib_libnpi_rtc_so
 PRODUCT_PACKAGES += qin_vendor_lib_libnvexchange_so
 PRODUCT_PACKAGES += qin_vendor_lib_libomx_avcdec_hw_sprd_so
@@ -445,16 +363,12 @@ PRODUCT_PACKAGES += qin_vendor_lib_libomx_vpxdec_hw_sprd_so
 PRODUCT_PACKAGES += qin_vendor_lib_libomx_vpxenc_hw_sprd_so
 PRODUCT_PACKAGES += qin_vendor_lib_libpowerhal_cli_so
 PRODUCT_PACKAGES += qin_vendor_lib_libpvrANDROID_WSEGL_so
-PRODUCT_PACKAGES += qin_vendor_lib_libreference_ril_so
 PRODUCT_PACKAGES += qin_vendor_lib_libresample48kto44k_so
-PRODUCT_PACKAGES += qin_vendor_lib_libril_so
 PRODUCT_PACKAGES += qin_vendor_lib_libril_threads_so
 PRODUCT_PACKAGES += qin_vendor_lib_librilsprd_single_so
 PRODUCT_PACKAGES += qin_vendor_lib_librilsprd_so
-PRODUCT_PACKAGES += qin_vendor_lib_librilutils_so
 PRODUCT_PACKAGES += qin_vendor_lib_librpmbclient_so
 PRODUCT_PACKAGES += qin_vendor_lib_libsensorlistcfg_so
-PRODUCT_PACKAGES += qin_vendor_lib_libsensorndkbridge_so
 PRODUCT_PACKAGES += qin_vendor_lib_libsensornpi_so
 PRODUCT_PACKAGES += qin_vendor_lib_libsensorsdrvcfg_so
 PRODUCT_PACKAGES += qin_vendor_lib_libsmartamp_so
@@ -500,25 +414,12 @@ PRODUCT_PACKAGES += qin_vendor_lib_libteeproduction_so
 PRODUCT_PACKAGES += qin_vendor_lib_libtinyalsa_utils_so
 PRODUCT_PACKAGES += qin_vendor_lib_libtqvalidate_so
 PRODUCT_PACKAGES += qin_vendor_lib_libtracedump_so
-PRODUCT_PACKAGES += qin_vendor_lib_libtrusty_so
 PRODUCT_PACKAGES += qin_vendor_lib_libusc_so
 PRODUCT_PACKAGES += qin_vendor_lib_libvbeffect_so
 PRODUCT_PACKAGES += qin_vendor_lib_libvbpga_so
 PRODUCT_PACKAGES += qin_vendor_lib_libwebrtc_audio_preprocessing_so
-PRODUCT_PACKAGES += qin_vendor_lib_libwifi_hal_so
-PRODUCT_PACKAGES += qin_vendor_lib_libwpa_client_so
 PRODUCT_PACKAGES += qin_vendor_lib_libwvhidl_so
 PRODUCT_PACKAGES += qin_vendor_lib_libyuv420_scaler_so
-PRODUCT_PACKAGES += qin_vendor_lib_mediacas_libclearkeycasplugin_so
-PRODUCT_PACKAGES += qin_vendor_lib_mediadrm_libdrmclearkeyplugin_so
-PRODUCT_PACKAGES += qin_vendor_lib_modules_leds_sprd_bltc_rgb_ko
-PRODUCT_PACKAGES += qin_vendor_lib_modules_microarray_fp_ko
-PRODUCT_PACKAGES += qin_vendor_lib_modules_pvrsrvkm_ko
-PRODUCT_PACKAGES += qin_vendor_lib_modules_sprd_fm_ko
-PRODUCT_PACKAGES += qin_vendor_lib_modules_sprd_vibrator_ko
-PRODUCT_PACKAGES += qin_vendor_lib_modules_sprdbt_tty_ko
-PRODUCT_PACKAGES += qin_vendor_lib_modules_sprdwl_ng_ko
-PRODUCT_PACKAGES += qin_vendor_lib_modules_tcs3430_ko
 PRODUCT_PACKAGES += qin_vendor_lib_npidevice_PQTune_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib_npidevice_autotestfinger_so
 PRODUCT_PACKAGES += qin_vendor_lib_npidevice_autotestfm_so
@@ -546,18 +447,9 @@ PRODUCT_PACKAGES += qin_vendor_lib_npidevice_libwifieut_so
 PRODUCT_PACKAGES += qin_vendor_lib_npidevice_nativemmifinger_so
 PRODUCT_PACKAGES += qin_vendor_lib_power_sprd_so
 PRODUCT_PACKAGES += qin_vendor_lib_production_libpubefuseapi_so
-PRODUCT_PACKAGES += qin_vendor_lib_soundfx_libaudiopreprocessing_so
-PRODUCT_PACKAGES += qin_vendor_lib_soundfx_libbundlewrapper_so
-PRODUCT_PACKAGES += qin_vendor_lib_soundfx_libdownmix_so
-PRODUCT_PACKAGES += qin_vendor_lib_soundfx_libdynproc_so
-PRODUCT_PACKAGES += qin_vendor_lib_soundfx_libeffectproxy_so
-PRODUCT_PACKAGES += qin_vendor_lib_soundfx_libldnhncr_so
-PRODUCT_PACKAGES += qin_vendor_lib_soundfx_libreverbwrapper_so
-PRODUCT_PACKAGES += qin_vendor_lib_soundfx_libvisualizer_so
 PRODUCT_PACKAGES += qin_vendor_lib_vendor_sprd_hardware_aprd_1_0_so
 PRODUCT_PACKAGES += qin_vendor_lib_vendor_sprd_hardware_connmgr_1_0_so
 PRODUCT_PACKAGES += qin_vendor_lib_vendor_sprd_hardware_enhance_1_0_so
-PRODUCT_PACKAGES += qin_vendor_lib_vendor_sprd_hardware_fingerprintmmi_1_0_so
 PRODUCT_PACKAGES += qin_vendor_lib_vendor_sprd_hardware_gnss_2_0_so
 PRODUCT_PACKAGES += qin_vendor_lib_vendor_sprd_hardware_log_1_0_so
 PRODUCT_PACKAGES += qin_vendor_lib_vendor_sprd_hardware_power_3_0_so
@@ -565,642 +457,565 @@ PRODUCT_PACKAGES += qin_vendor_lib_vendor_sprd_hardware_radio_1_0_so
 PRODUCT_PACKAGES += qin_vendor_lib_vendor_sprd_hardware_radio_flavor_1_0_so
 PRODUCT_PACKAGES += qin_vendor_lib_vendor_sprd_hardware_thermal_1_0_so
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/product/build.prop:product/build.prop
+    vendor/qin/qin2pro/proprietary/product/build.prop:system/product/build.prop
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/gatordstart:vendor/bin/gatordstart
+    vendor/qin/qin2pro/proprietary/vendor/bin/gatordstart:system/vendor/bin/gatordstart
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/backlight/readme:vendor/bin/power/backlight/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/backlight/readme:system/vendor/bin/power/backlight/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/cpu/dvfs/readme:vendor/bin/power/cpu/dvfs/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/cpu/dvfs/readme:system/vendor/bin/power/cpu/dvfs/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/cpu/fix_freq/readme:vendor/bin/power/cpu/fix_freq/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/cpu/fix_freq/readme:system/vendor/bin/power/cpu/fix_freq/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/cpu/hotplug/readme:vendor/bin/power/cpu/hotplug/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/cpu/hotplug/readme:system/vendor/bin/power/cpu/hotplug/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/cpu/lit_freq/readme:vendor/bin/power/cpu/lit_freq/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/cpu/lit_freq/readme:system/vendor/bin/power/cpu/lit_freq/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/cpu/loading/readme:vendor/bin/power/cpu/loading/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/cpu/loading/readme:system/vendor/bin/power/cpu/loading/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/cpu/trans_table/readme:vendor/bin/power/cpu/trans_table/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/cpu/trans_table/readme:system/vendor/bin/power/cpu/trans_table/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/ddr/bm/readme:vendor/bin/power/ddr/bm/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/ddr/bm/readme:system/vendor/bin/power/ddr/bm/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/ddr/bm/tool/log_to_csv.sh:vendor/bin/power/ddr/bm/tool/log_to_csv.sh
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/ddr/bm/tool/log_to_csv.sh:system/vendor/bin/power/ddr/bm/tool/log_to_csv.sh
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/ddr/bm/tool/sharkl3_cm4_disable_smart_light.bin:vendor/bin/power/ddr/bm/tool/sharkl3_cm4_disable_smart_light.bin
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/ddr/bm/tool/sharkl3_cm4_disable_smart_light.bin:system/vendor/bin/power/ddr/bm/tool/sharkl3_cm4_disable_smart_light.bin
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/ddr/fix_freq/readme:vendor/bin/power/ddr/fix_freq/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/ddr/fix_freq/readme:system/vendor/bin/power/ddr/fix_freq/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/ddr/loading/readme:vendor/bin/power/ddr/loading/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/ddr/loading/readme:system/vendor/bin/power/ddr/loading/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/ddr/trans_table/readme:vendor/bin/power/ddr/trans_table/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/ddr/trans_table/readme:system/vendor/bin/power/ddr/trans_table/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/frame/readme:vendor/bin/power/frame/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/frame/readme:system/vendor/bin/power/frame/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/gpu/fix_freq/readme:vendor/bin/power/gpu/fix_freq/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/gpu/fix_freq/readme:system/vendor/bin/power/gpu/fix_freq/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/gpu/loading/readme:vendor/bin/power/gpu/loading/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/gpu/loading/readme:system/vendor/bin/power/gpu/loading/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/gpu/trans_table/readme:vendor/bin/power/gpu/trans_table/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/gpu/trans_table/readme:system/vendor/bin/power/gpu/trans_table/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/interrupt/readme:vendor/bin/power/interrupt/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/interrupt/readme:system/vendor/bin/power/interrupt/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/loadings/readme:vendor/bin/power/loadings/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/loadings/readme:system/vendor/bin/power/loadings/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/loadings/tool/loading.sh:vendor/bin/power/loadings/tool/loading.sh
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/loadings/tool/loading.sh:system/vendor/bin/power/loadings/tool/loading.sh
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/paras/readme:vendor/bin/power/paras/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/paras/readme:system/vendor/bin/power/paras/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/paras/tool/para.sh:vendor/bin/power/paras/tool/para.sh
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/paras/tool/para.sh:system/vendor/bin/power/paras/tool/para.sh
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/tops/readme:vendor/bin/power/tops/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/tops/readme:system/vendor/bin/power/tops/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/total/readme:vendor/bin/power/total/readme
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/total/readme:system/vendor/bin/power/total/readme
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/power/total/tool/total.sh:vendor/bin/power/total/tool/total.sh
+    vendor/qin/qin2pro/proprietary/vendor/bin/power/total/tool/total.sh:system/vendor/bin/power/total/tool/total.sh
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/pvrhtbd:vendor/bin/pvrhtbd
+    vendor/qin/qin2pro/proprietary/vendor/bin/pvrhtbd:system/vendor/bin/pvrhtbd
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/pvrhwperf:vendor/bin/pvrhwperf
+    vendor/qin/qin2pro/proprietary/vendor/bin/pvrhwperf:system/vendor/bin/pvrhwperf
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/pvrlogdump:vendor/bin/pvrlogdump
+    vendor/qin/qin2pro/proprietary/vendor/bin/pvrlogdump:system/vendor/bin/pvrlogdump
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/bin/pvrlogsplit:vendor/bin/pvrlogsplit
+    vendor/qin/qin2pro/proprietary/vendor/bin/pvrlogsplit:system/vendor/bin/pvrlogsplit
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/build.prop:vendor/build.prop
+    vendor/qin/qin2pro/proprietary/vendor/default.prop:system/vendor/default.prop
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/default.prop:vendor/default.prop
+    vendor/qin/qin2pro/proprietary/vendor/etc/BBAT.conf:system/vendor/etc/BBAT.conf
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/BBAT.conf:vendor/etc/BBAT.conf
+    vendor/qin/qin2pro/proprietary/vendor/etc/PCBA.conf:system/vendor/etc/PCBA.conf
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/NOTICE.xml.gz:vendor/etc/NOTICE.xml.gz
+    vendor/qin/qin2pro/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:system/vendor/etc/a2dp_audio_policy_configuration.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/PCBA.conf:vendor/etc/PCBA.conf
+    vendor/qin/qin2pro/proprietary/vendor/etc/adb.iso:system/vendor/etc/adb.iso
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:vendor/etc/a2dp_audio_policy_configuration.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/adb.iso:vendor/etc/adb.iso
+    vendor/qin/qin2pro/proprietary/vendor/etc/audio_effects.xml:system/vendor/etc/audio_effects.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/audio_effects.conf:vendor/etc/audio_effects.conf
+    vendor/qin/qin2pro/proprietary/vendor/etc/audio_hw.xml:system/vendor/etc/audio_hw.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/audio_effects.xml:vendor/etc/audio_effects.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/audio_para:system/vendor/etc/audio_para
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/audio_hw.xml:vendor/etc/audio_hw.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/audio_policy_configuration.xml:system/vendor/etc/audio_policy_configuration.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/audio_para:vendor/etc/audio_para
+    vendor/qin/qin2pro/proprietary/vendor/etc/audio_policy_configuration_smart_pa.xml:system/vendor/etc/audio_policy_configuration_smart_pa.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/audio_policy_configuration.xml:vendor/etc/audio_policy_configuration.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/audio_policy_volumes.xml:system/vendor/etc/audio_policy_volumes.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/audio_policy_configuration_smart_pa.xml:vendor/etc/audio_policy_configuration_smart_pa.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/codec_pga.xml:system/vendor/etc/codec_pga.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/audio_policy_volumes.xml:vendor/etc/audio_policy_volumes.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/config.xml:system/vendor/etc/config.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/codec_pga.xml:vendor/etc/codec_pga.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/connectivity_calibration.ini:system/vendor/etc/connectivity_calibration.ini
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/config.xml:vendor/etc/config.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/connectivity_configure.ini:system/vendor/etc/connectivity_configure.ini
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/connectivity_calibration.ini:vendor/etc/connectivity_calibration.ini
+    vendor/qin/qin2pro/proprietary/vendor/etc/default_volume_tables.xml:system/vendor/etc/default_volume_tables.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/connectivity_configure.ini:vendor/etc/connectivity_configure.ini
+    vendor/qin/qin2pro/proprietary/vendor/etc/enhance/abc.xml:system/vendor/etc/enhance/abc.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/default_volume_tables.xml:vendor/etc/default_volume_tables.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/enhance/bld.xml:system/vendor/etc/enhance/bld.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/enhance/abc.xml:vendor/etc/enhance/abc.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/enhance/cms.xml:system/vendor/etc/enhance/cms.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/enhance/bld.xml:vendor/etc/enhance/bld.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/enhance/gamma.xml:system/vendor/etc/enhance/gamma.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/enhance/cms.xml:vendor/etc/enhance/cms.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/fs_config_dirs:system/vendor/etc/fs_config_dirs
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/enhance/gamma.xml:vendor/etc/enhance/gamma.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/fs_config_files:system/vendor/etc/fs_config_files
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/fs_config_dirs:vendor/etc/fs_config_dirs
+    vendor/qin/qin2pro/proprietary/vendor/etc/fstab.enableswap:system/vendor/etc/fstab.enableswap
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/fs_config_files:vendor/etc/fs_config_files
+    vendor/qin/qin2pro/proprietary/vendor/etc/fstab.s9863a1h10:system/vendor/etc/fstab.s9863a1h10
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/fstab.enableswap:vendor/etc/fstab.enableswap
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.audio@2.0-service.rc:system/vendor/etc/init/android.hardware.audio@2.0-service.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/fstab.s9863a1h10:vendor/etc/fstab.s9863a1h10
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.bluetooth.a2dp@1.0-service.rc:system/vendor/etc/init/android.hardware.bluetooth.a2dp@1.0-service.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.audio@2.0-service.rc:vendor/etc/init/android.hardware.audio@2.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service.unisoc.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service.unisoc.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc:system/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.bluetooth.a2dp@1.0-service.rc:vendor/etc/init/android.hardware.bluetooth.a2dp@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service.unisoc.rc:vendor/etc/init/android.hardware.bluetooth@1.0-service.unisoc.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.usb@1.1-service.rc:system/vendor/etc/init/android.hardware.usb@1.1-service.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc:vendor/etc/init/android.hardware.camera.provider@2.4-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/autotest.rc:system/vendor/etc/init/autotest.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.cas@1.0-service.rc:vendor/etc/init/android.hardware.cas@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/charge.rc:system/vendor/etc/init/charge.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.configstore@1.1-service.rc:vendor/etc/init/android.hardware.configstore@1.1-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/cp_diskserver.rc:system/vendor/etc/init/cp_diskserver.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.rc:vendor/etc/init/android.hardware.drm@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/engpc.rc:system/vendor/etc/init/engpc.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc:vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/ext_data.rc:system/vendor/etc/init/ext_data.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/factorytest.rc:system/vendor/etc/init/factorytest.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.dumpstate@1.0-service.rc:vendor/etc/init/android.hardware.dumpstate@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/disable_fbcdc.rc:system/vendor/etc/init/disable_fbcdc.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/hw/init.common.rc:system/vendor/etc/init/hw/init.common.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc:vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/hw/init.ram.rc:system/vendor/etc/init/hw/init.ram.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc:vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/hw/init.s9863a1h10.rc:system/vendor/etc/init/hw/init.s9863a1h10.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.health@2.0-service.rc:vendor/etc/init/android.hardware.health@2.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/hw/init.s9863a1h10.usb.rc:system/vendor/etc/init/hw/init.s9863a1h10.usb.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.ir@1.0-service.rc:vendor/etc/init/android.hardware.ir@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/hw/init.storage.rc:system/vendor/etc/init/hw/init.storage.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service.rc:vendor/etc/init/android.hardware.keymaster@3.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/init.leddrv.rc:system/vendor/etc/init/init.leddrv.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.light@2.0-service.rc:vendor/etc/init/android.hardware.light@2.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/init.vibdrv.rc:system/vendor/etc/init/init.vibdrv.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:vendor/etc/init/android.hardware.media.omx@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/init_expand.rc:system/vendor/etc/init/init_expand.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:vendor/etc/init/android.hardware.memtrack@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/iqfeed.rc:system/vendor/etc/init/iqfeed.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:vendor/etc/init/android.hardware.sensors@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/mlogservice.rc:system/vendor/etc/init/mlogservice.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.usb@1.1-service.rc:vendor/etc/init/android.hardware.usb@1.1-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/modem_control.rc:system/vendor/etc/init/modem_control.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.vibrator@1.0-service.rc:vendor/etc/init/android.hardware.vibrator@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/modemd.rc:system/vendor/etc/init/modemd.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:vendor/etc/init/android.hardware.wifi@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/otpd.rc:system/vendor/etc/init/otpd.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/autotest.rc:vendor/etc/init/autotest.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/phasecheckserver.rc:system/vendor/etc/init/phasecheckserver.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/charge.rc:vendor/etc/init/charge.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/refnotify.rc:system/vendor/etc/init/refnotify.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/cp_diskserver.rc:vendor/etc/init/cp_diskserver.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/rpmbserver_androido.rc:system/vendor/etc/init/rpmbserver_androido.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/engpc.rc:vendor/etc/init/engpc.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/slogmodem.rc:system/vendor/etc/init/slogmodem.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/ext_data.rc:vendor/etc/init/ext_data.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/srtd.rc:system/vendor/etc/init/srtd.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/factorytest.rc:vendor/etc/init/factorytest.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/storageproxyd_androidp.rc:system/vendor/etc/init/storageproxyd_androidp.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/hostapd.android.rc:vendor/etc/init/hostapd.android.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/thermald.rc:system/vendor/etc/init/thermald.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/hw/init.common.rc:vendor/etc/init/hw/init.common.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/tsupplicant.rc:system/vendor/etc/init/tsupplicant.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/hw/init.ram.rc:vendor/etc/init/hw/init.ram.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.aprd@1.0-service.rc:system/vendor/etc/init/vendor.sprd.hardware.aprd@1.0-service.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/hw/init.s9863a1h10.rc:vendor/etc/init/hw/init.s9863a1h10.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.connmgr@1.0-service.rc:system/vendor/etc/init/vendor.sprd.hardware.connmgr@1.0-service.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/hw/init.s9863a1h10.usb.rc:vendor/etc/init/hw/init.s9863a1h10.usb.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.enhance@1.0-service.rc:system/vendor/etc/init/vendor.sprd.hardware.enhance@1.0-service.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/hw/init.storage.rc:vendor/etc/init/hw/init.storage.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.face@1.0-service.rc:system/vendor/etc/init/vendor.sprd.hardware.face@1.0-service.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/init.leddrv.rc:vendor/etc/init/init.leddrv.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.gnss@2.0-service.rc:system/vendor/etc/init/vendor.sprd.hardware.gnss@2.0-service.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/init.microarray.rc:vendor/etc/init/init.microarray.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.log@1.0-service.rc:system/vendor/etc/init/vendor.sprd.hardware.log@1.0-service.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/init.tcs3430.rc:vendor/etc/init/init.tcs3430.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.power@3.0-service.rc:system/vendor/etc/init/vendor.sprd.hardware.power@3.0-service.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/init.vibdrv.rc:vendor/etc/init/init.vibdrv.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.thermal@1.0-service.rc:system/vendor/etc/init/vendor.sprd.hardware.thermal@1.0-service.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/init_expand.rc:vendor/etc/init/init_expand.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/wcn.rc:system/vendor/etc/init/wcn.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/iqfeed.rc:vendor/etc/init/iqfeed.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/wcnd.rc:system/vendor/etc/init/wcnd.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/mlogservice.rc:vendor/etc/init/mlogservice.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/init/ylog_lite.rc:system/vendor/etc/init/ylog_lite.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/modem_control.rc:vendor/etc/init/modem_control.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/media_codecs.xml:system/vendor/etc/media_codecs.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/modemd.rc:vendor/etc/init/modemd.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/media_codecs_google_audio.xml:system/vendor/etc/media_codecs_google_audio.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/otpd.rc:vendor/etc/init/otpd.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/media_codecs_google_telephony.xml:system/vendor/etc/media_codecs_google_telephony.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/phasecheckserver.rc:vendor/etc/init/phasecheckserver.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/media_codecs_google_video.xml:system/vendor/etc/media_codecs_google_video.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/refnotify.rc:vendor/etc/init/refnotify.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/media_codecs_performance.xml:system/vendor/etc/media_codecs_performance.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/rpmbserver_androido.rc:vendor/etc/init/rpmbserver_androido.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/media_profiles_V1_0.xml:system/vendor/etc/media_profiles_V1_0.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/slogmodem.rc:vendor/etc/init/slogmodem.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/media_profiles_turnkey.xml:system/vendor/etc/media_profiles_turnkey.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/sprdrild.rc:vendor/etc/init/sprdrild.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/mlogservice.conf:system/vendor/etc/mlogservice.conf
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/srtd.rc:vendor/etc/init/srtd.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/numeric_operator.xml:system/vendor/etc/numeric_operator.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/storageproxyd_androidp.rc:vendor/etc/init/storageproxyd_androidp.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.bluetooth_le.xml:system/vendor/etc/permissions/android.hardware.bluetooth_le.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/thermald.rc:vendor/etc/init/thermald.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.camera.flash-autofocus.xml:system/vendor/etc/permissions/android.hardware.camera.flash-autofocus.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/tsupplicant.rc:vendor/etc/init/tsupplicant.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.camera.front.xml:system/vendor/etc/permissions/android.hardware.camera.front.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.aprd@1.0-service.rc:vendor/etc/init/vendor.sprd.hardware.aprd@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.consumerir.xml:system/vendor/etc/permissions/android.hardware.consumerir.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.connmgr@1.0-service.rc:vendor/etc/init/vendor.sprd.hardware.connmgr@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.location.gps.xml:system/vendor/etc/permissions/android.hardware.location.gps.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.enhance@1.0-service.rc:vendor/etc/init/vendor.sprd.hardware.enhance@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.opengles.aep.xml:system/vendor/etc/permissions/android.hardware.opengles.aep.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.face@1.0-service.rc:vendor/etc/init/vendor.sprd.hardware.face@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.telephony.gsm.xml:system/vendor/etc/permissions/android.hardware.telephony.gsm.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.gnss@2.0-service.rc:vendor/etc/init/vendor.sprd.hardware.gnss@2.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml:system/vendor/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.log@1.0-service.rc:vendor/etc/init/vendor.sprd.hardware.log@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.touchscreen.xml:system/vendor/etc/permissions/android.hardware.touchscreen.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.power@3.0-service.rc:vendor/etc/init/vendor.sprd.hardware.power@3.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.usb.accessory.xml:system/vendor/etc/permissions/android.hardware.usb.accessory.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/vendor.sprd.hardware.thermal@1.0-service.rc:vendor/etc/init/vendor.sprd.hardware.thermal@1.0-service.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.usb.host.xml:system/vendor/etc/permissions/android.hardware.usb.host.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/vndservicemanager.rc:vendor/etc/init/vndservicemanager.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.wifi.direct.xml:system/vendor/etc/permissions/android.hardware.wifi.direct.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/wcn.rc:vendor/etc/init/wcn.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.wifi.xml:system/vendor/etc/permissions/android.hardware.wifi.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/wcnd.rc:vendor/etc/init/wcnd.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.software.cts.xml:system/vendor/etc/permissions/android.software.cts.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/ylog_lite.rc:vendor/etc/init/ylog_lite.rc
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.software.midi.xml:system/vendor/etc/permissions/android.software.midi.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/media_codecs.xml:vendor/etc/media_codecs.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.software.verified_boot.xml:system/vendor/etc/permissions/android.software.verified_boot.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/media_codecs_google_audio.xml:vendor/etc/media_codecs_google_audio.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/handheld_core_hardware.xml:system/vendor/etc/permissions/handheld_core_hardware.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/media_codecs_google_telephony.xml:vendor/etc/media_codecs_google_telephony.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/vendor.sprd.hardware.faceid.xml:system/vendor/etc/permissions/vendor.sprd.hardware.faceid.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/media_codecs_google_video.xml:vendor/etc/media_codecs_google_video.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/power_resource_file_info.xml:system/vendor/etc/power_resource_file_info.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/media_codecs_performance.xml:vendor/etc/media_codecs_performance.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/power_scene_config.xml:system/vendor/etc/power_scene_config.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/media_profiles_V1_0.xml:vendor/etc/media_profiles_V1_0.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/power_scene_id_define.txt:system/vendor/etc/power_scene_id_define.txt
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/media_profiles_turnkey.xml:vendor/etc/media_profiles_turnkey.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/primary_audio_policy_configuration.xml:system/vendor/etc/primary_audio_policy_configuration.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/mkshrc:vendor/etc/mkshrc
+    vendor/qin/qin2pro/proprietary/vendor/etc/primary_audio_policy_configuration_smart_pa.xml:system/vendor/etc/primary_audio_policy_configuration_smart_pa.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/mlogservice.conf:vendor/etc/mlogservice.conf
+    vendor/qin/qin2pro/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/numeric_operator.xml:vendor/etc/numeric_operator.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:system/vendor/etc/r_submix_audio_policy_configuration.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.bluetooth_le.xml:vendor/etc/permissions/android.hardware.bluetooth_le.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/record_tone_1.pcm:system/vendor/etc/record_tone_1.pcm
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.camera.flash-autofocus.xml:vendor/etc/permissions/android.hardware.camera.flash-autofocus.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/record_tone_2.pcm:system/vendor/etc/record_tone_2.pcm
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.camera.front.xml:vendor/etc/permissions/android.hardware.camera.front.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/colon_1080X1920.png:system/vendor/etc/res/images/colon_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.consumerir.xml:vendor/etc/permissions/android.hardware.consumerir.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/colon_1440X2560.png:system/vendor/etc/res/images/colon_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.fingerprint.xml:vendor/etc/permissions/android.hardware.fingerprint.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/colon_360X640.png:system/vendor/etc/res/images/colon_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.location.gps.xml:vendor/etc/permissions/android.hardware.location.gps.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/colon_480X800.png:system/vendor/etc/res/images/colon_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.opengles.aep.xml:vendor/etc/permissions/android.hardware.opengles.aep.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/colon_720X1280.png:system/vendor/etc/res/images/colon_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.telephony.gsm.xml:vendor/etc/permissions/android.hardware.telephony.gsm.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_1_1080X1920.png:system/vendor/etc/res/images/error_1_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml:vendor/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_1_1440X2560.png:system/vendor/etc/res/images/error_1_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.touchscreen.xml:vendor/etc/permissions/android.hardware.touchscreen.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_1_360X640.png:system/vendor/etc/res/images/error_1_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.usb.accessory.xml:vendor/etc/permissions/android.hardware.usb.accessory.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_1_480X800.png:system/vendor/etc/res/images/error_1_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.usb.host.xml:vendor/etc/permissions/android.hardware.usb.host.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_1_720X1280.png:system/vendor/etc/res/images/error_1_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.wifi.direct.xml:vendor/etc/permissions/android.hardware.wifi.direct.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_2_1080X1920.png:system/vendor/etc/res/images/error_2_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.hardware.wifi.xml:vendor/etc/permissions/android.hardware.wifi.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_2_1440X2560.png:system/vendor/etc/res/images/error_2_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.software.cts.xml:vendor/etc/permissions/android.software.cts.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_2_360X640.png:system/vendor/etc/res/images/error_2_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.software.midi.xml:vendor/etc/permissions/android.software.midi.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_2_480X800.png:system/vendor/etc/res/images/error_2_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/android.software.verified_boot.xml:vendor/etc/permissions/android.software.verified_boot.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_2_720X1280.png:system/vendor/etc/res/images/error_2_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/handheld_core_hardware.xml:vendor/etc/permissions/handheld_core_hardware.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_3_1080X1920.png:system/vendor/etc/res/images/error_3_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/permissions/vendor.sprd.hardware.faceid.xml:vendor/etc/permissions/vendor.sprd.hardware.faceid.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_3_1440X2560.png:system/vendor/etc/res/images/error_3_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/power_resource_file_info.xml:vendor/etc/power_resource_file_info.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_3_360X640.png:system/vendor/etc/res/images/error_3_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/power_scene_config.xml:vendor/etc/power_scene_config.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_3_480X800.png:system/vendor/etc/res/images/error_3_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/power_scene_id_define.txt:vendor/etc/power_scene_id_define.txt
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_3_720X1280.png:system/vendor/etc/res/images/error_3_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/primary_audio_policy_configuration.xml:vendor/etc/primary_audio_policy_configuration.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate0.png:system/vendor/etc/res/images/indeterminate0.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/primary_audio_policy_configuration_smart_pa.xml:vendor/etc/primary_audio_policy_configuration_smart_pa.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate0_1080X1920.png:system/vendor/etc/res/images/indeterminate0_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/public.libraries.txt:vendor/etc/public.libraries.txt
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate0_1440X2560.png:system/vendor/etc/res/images/indeterminate0_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:vendor/etc/r_submix_audio_policy_configuration.xml
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate0_360X640.png:system/vendor/etc/res/images/indeterminate0_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/record_tone_1.pcm:vendor/etc/record_tone_1.pcm
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate0_480X800.png:system/vendor/etc/res/images/indeterminate0_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/record_tone_2.pcm:vendor/etc/record_tone_2.pcm
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate0_720X1280.png:system/vendor/etc/res/images/indeterminate0_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/colon_1080X1920.png:vendor/etc/res/images/colon_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate1.png:system/vendor/etc/res/images/indeterminate1.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/colon_1440X2560.png:vendor/etc/res/images/colon_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate1_1080X1920.png:system/vendor/etc/res/images/indeterminate1_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/colon_360X640.png:vendor/etc/res/images/colon_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate1_1440X2560.png:system/vendor/etc/res/images/indeterminate1_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/colon_480X800.png:vendor/etc/res/images/colon_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate1_360X640.png:system/vendor/etc/res/images/indeterminate1_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/colon_720X1280.png:vendor/etc/res/images/colon_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate1_480X800.png:system/vendor/etc/res/images/indeterminate1_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_1_1080X1920.png:vendor/etc/res/images/error_1_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate1_720X1280.png:system/vendor/etc/res/images/indeterminate1_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_1_1440X2560.png:vendor/etc/res/images/error_1_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate2.png:system/vendor/etc/res/images/indeterminate2.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_1_360X640.png:vendor/etc/res/images/error_1_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate2_1080X1920.png:system/vendor/etc/res/images/indeterminate2_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_1_480X800.png:vendor/etc/res/images/error_1_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate2_1440X2560.png:system/vendor/etc/res/images/indeterminate2_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_1_720X1280.png:vendor/etc/res/images/error_1_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate2_360X640.png:system/vendor/etc/res/images/indeterminate2_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_2_1080X1920.png:vendor/etc/res/images/error_2_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate2_480X800.png:system/vendor/etc/res/images/indeterminate2_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_2_1440X2560.png:vendor/etc/res/images/error_2_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate2_720X1280.png:system/vendor/etc/res/images/indeterminate2_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_2_360X640.png:vendor/etc/res/images/error_2_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate3.png:system/vendor/etc/res/images/indeterminate3.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_2_480X800.png:vendor/etc/res/images/error_2_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate3_1080X1920.png:system/vendor/etc/res/images/indeterminate3_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_2_720X1280.png:vendor/etc/res/images/error_2_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate3_1440X2560.png:system/vendor/etc/res/images/indeterminate3_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_3_1080X1920.png:vendor/etc/res/images/error_3_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate3_360X640.png:system/vendor/etc/res/images/indeterminate3_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_3_1440X2560.png:vendor/etc/res/images/error_3_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate3_480X800.png:system/vendor/etc/res/images/indeterminate3_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_3_360X640.png:vendor/etc/res/images/error_3_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate3_720X1280.png:system/vendor/etc/res/images/indeterminate3_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_3_480X800.png:vendor/etc/res/images/error_3_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate4.png:system/vendor/etc/res/images/indeterminate4.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/error_3_720X1280.png:vendor/etc/res/images/error_3_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate4_1080X1920.png:system/vendor/etc/res/images/indeterminate4_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate0.png:vendor/etc/res/images/indeterminate0.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate4_1440X2560.png:system/vendor/etc/res/images/indeterminate4_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate0_1080X1920.png:vendor/etc/res/images/indeterminate0_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate4_360X640.png:system/vendor/etc/res/images/indeterminate4_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate0_1440X2560.png:vendor/etc/res/images/indeterminate0_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate4_480X800.png:system/vendor/etc/res/images/indeterminate4_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate0_360X640.png:vendor/etc/res/images/indeterminate0_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate4_720X1280.png:system/vendor/etc/res/images/indeterminate4_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate0_480X800.png:vendor/etc/res/images/indeterminate0_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate5.png:system/vendor/etc/res/images/indeterminate5.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate0_720X1280.png:vendor/etc/res/images/indeterminate0_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate5_1080X1920.png:system/vendor/etc/res/images/indeterminate5_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate1.png:vendor/etc/res/images/indeterminate1.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate5_1440X2560.png:system/vendor/etc/res/images/indeterminate5_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate1_1080X1920.png:vendor/etc/res/images/indeterminate1_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate5_360X640.png:system/vendor/etc/res/images/indeterminate5_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate1_1440X2560.png:vendor/etc/res/images/indeterminate1_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate5_480X800.png:system/vendor/etc/res/images/indeterminate5_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate1_360X640.png:vendor/etc/res/images/indeterminate1_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate5_720X1280.png:system/vendor/etc/res/images/indeterminate5_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate1_480X800.png:vendor/etc/res/images/indeterminate1_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate6.png:system/vendor/etc/res/images/indeterminate6.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate1_720X1280.png:vendor/etc/res/images/indeterminate1_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate6_1080X1920.png:system/vendor/etc/res/images/indeterminate6_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate2.png:vendor/etc/res/images/indeterminate2.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate6_1440X2560.png:system/vendor/etc/res/images/indeterminate6_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate2_1080X1920.png:vendor/etc/res/images/indeterminate2_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate6_360X640.png:system/vendor/etc/res/images/indeterminate6_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate2_1440X2560.png:vendor/etc/res/images/indeterminate2_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate6_480X800.png:system/vendor/etc/res/images/indeterminate6_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate2_360X640.png:vendor/etc/res/images/indeterminate2_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate6_720X1280.png:system/vendor/etc/res/images/indeterminate6_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate2_480X800.png:vendor/etc/res/images/indeterminate2_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_0_1080X1920.png:system/vendor/etc/res/images/number_0_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate2_720X1280.png:vendor/etc/res/images/indeterminate2_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_0_1440X2560.png:system/vendor/etc/res/images/number_0_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate3.png:vendor/etc/res/images/indeterminate3.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_0_360X640.png:system/vendor/etc/res/images/number_0_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate3_1080X1920.png:vendor/etc/res/images/indeterminate3_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_0_480X800.png:system/vendor/etc/res/images/number_0_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate3_1440X2560.png:vendor/etc/res/images/indeterminate3_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_0_720X1280.png:system/vendor/etc/res/images/number_0_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate3_360X640.png:vendor/etc/res/images/indeterminate3_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_1_1080X1920.png:system/vendor/etc/res/images/number_1_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate3_480X800.png:vendor/etc/res/images/indeterminate3_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_1_1440X2560.png:system/vendor/etc/res/images/number_1_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate3_720X1280.png:vendor/etc/res/images/indeterminate3_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_1_360X640.png:system/vendor/etc/res/images/number_1_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate4.png:vendor/etc/res/images/indeterminate4.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_1_480X800.png:system/vendor/etc/res/images/number_1_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate4_1080X1920.png:vendor/etc/res/images/indeterminate4_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_1_720X1280.png:system/vendor/etc/res/images/number_1_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate4_1440X2560.png:vendor/etc/res/images/indeterminate4_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_2_1080X1920.png:system/vendor/etc/res/images/number_2_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate4_360X640.png:vendor/etc/res/images/indeterminate4_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_2_1440X2560.png:system/vendor/etc/res/images/number_2_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate4_480X800.png:vendor/etc/res/images/indeterminate4_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_2_480X800.png:system/vendor/etc/res/images/number_2_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate4_720X1280.png:vendor/etc/res/images/indeterminate4_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_2_720X1280.png:system/vendor/etc/res/images/number_2_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate5.png:vendor/etc/res/images/indeterminate5.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_3_1080X1920.png:system/vendor/etc/res/images/number_3_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate5_1080X1920.png:vendor/etc/res/images/indeterminate5_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_3_1440X2560.png:system/vendor/etc/res/images/number_3_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate5_1440X2560.png:vendor/etc/res/images/indeterminate5_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_3_360X640.png:system/vendor/etc/res/images/number_3_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate5_360X640.png:vendor/etc/res/images/indeterminate5_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_3_480X800.png:system/vendor/etc/res/images/number_3_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate5_480X800.png:vendor/etc/res/images/indeterminate5_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_3_720X1280.png:system/vendor/etc/res/images/number_3_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate5_720X1280.png:vendor/etc/res/images/indeterminate5_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_4_1080X1920.png:system/vendor/etc/res/images/number_4_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate6.png:vendor/etc/res/images/indeterminate6.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_4_1440X2560.png:system/vendor/etc/res/images/number_4_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate6_1080X1920.png:vendor/etc/res/images/indeterminate6_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_4_360X640.png:system/vendor/etc/res/images/number_4_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate6_1440X2560.png:vendor/etc/res/images/indeterminate6_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_4_480X800.png:system/vendor/etc/res/images/number_4_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate6_360X640.png:vendor/etc/res/images/indeterminate6_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_4_720X1280.png:system/vendor/etc/res/images/number_4_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate6_480X800.png:vendor/etc/res/images/indeterminate6_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_5_1080X1920.png:system/vendor/etc/res/images/number_5_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/indeterminate6_720X1280.png:vendor/etc/res/images/indeterminate6_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_5_1440X2560.png:system/vendor/etc/res/images/number_5_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_0_1080X1920.png:vendor/etc/res/images/number_0_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_5_360X640.png:system/vendor/etc/res/images/number_5_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_0_1440X2560.png:vendor/etc/res/images/number_0_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_5_480X800.png:system/vendor/etc/res/images/number_5_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_0_360X640.png:vendor/etc/res/images/number_0_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_5_720X1280.png:system/vendor/etc/res/images/number_5_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_0_480X800.png:vendor/etc/res/images/number_0_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_6_1080X1920.png:system/vendor/etc/res/images/number_6_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_0_720X1280.png:vendor/etc/res/images/number_0_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_6_1440X2560.png:system/vendor/etc/res/images/number_6_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_1_1080X1920.png:vendor/etc/res/images/number_1_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_6_360X640.png:system/vendor/etc/res/images/number_6_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_1_1440X2560.png:vendor/etc/res/images/number_1_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_6_480X800.png:system/vendor/etc/res/images/number_6_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_1_360X640.png:vendor/etc/res/images/number_1_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_6_720X1280.png:system/vendor/etc/res/images/number_6_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_1_480X800.png:vendor/etc/res/images/number_1_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_7_1080X1920.png:system/vendor/etc/res/images/number_7_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_1_720X1280.png:vendor/etc/res/images/number_1_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_7_1440X2560.png:system/vendor/etc/res/images/number_7_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_2_1080X1920.png:vendor/etc/res/images/number_2_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_7_360X640.png:system/vendor/etc/res/images/number_7_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_2_1440X2560.png:vendor/etc/res/images/number_2_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_7_480X800.png:system/vendor/etc/res/images/number_7_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_2_480X800.png:vendor/etc/res/images/number_2_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_7_720X1280.png:system/vendor/etc/res/images/number_7_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_2_720X1280.png:vendor/etc/res/images/number_2_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_8_1080X1920.png:system/vendor/etc/res/images/number_8_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_3_1080X1920.png:vendor/etc/res/images/number_3_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_8_1440X2560.png:system/vendor/etc/res/images/number_8_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_3_1440X2560.png:vendor/etc/res/images/number_3_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_8_360X640.png:system/vendor/etc/res/images/number_8_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_3_360X640.png:vendor/etc/res/images/number_3_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_8_480X800.png:system/vendor/etc/res/images/number_8_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_3_480X800.png:vendor/etc/res/images/number_3_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_8_720X1280.png:system/vendor/etc/res/images/number_8_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_3_720X1280.png:vendor/etc/res/images/number_3_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_9_1080X1920.png:system/vendor/etc/res/images/number_9_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_4_1080X1920.png:vendor/etc/res/images/number_4_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_9_1440X2560.png:system/vendor/etc/res/images/number_9_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_4_1440X2560.png:vendor/etc/res/images/number_4_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_9_360X640.png:system/vendor/etc/res/images/number_9_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_4_360X640.png:vendor/etc/res/images/number_4_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_9_480X800.png:system/vendor/etc/res/images/number_9_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_4_480X800.png:vendor/etc/res/images/number_4_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_9_720X1280.png:system/vendor/etc/res/images/number_9_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_4_720X1280.png:vendor/etc/res/images/number_4_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_percent_1080X1920.png:system/vendor/etc/res/images/number_percent_1080X1920.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_5_1080X1920.png:vendor/etc/res/images/number_5_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_percent_1440X2560.png:system/vendor/etc/res/images/number_percent_1440X2560.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_5_1440X2560.png:vendor/etc/res/images/number_5_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_percent_360X640.png:system/vendor/etc/res/images/number_percent_360X640.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_5_360X640.png:vendor/etc/res/images/number_5_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_percent_480X800.png:system/vendor/etc/res/images/number_percent_480X800.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_5_480X800.png:vendor/etc/res/images/number_5_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_percent_720X1280.png:system/vendor/etc/res/images/number_percent_720X1280.png
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_5_720X1280.png:vendor/etc/res/images/number_5_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/rx_data.pcm:system/vendor/etc/rx_data.pcm
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_6_1080X1920.png:vendor/etc/res/images/number_6_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:system/vendor/etc/seccomp_policy/mediaextractor.policy
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_6_1440X2560.png:vendor/etc/res/images/number_6_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/selinux/precompiled_sepolicy.plat_and_mapping.sha256:system/vendor/etc/selinux/precompiled_sepolicy.plat_and_mapping.sha256
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_6_360X640.png:vendor/etc/res/images/number_6_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/slog_modem.conf:system/vendor/etc/slog_modem.conf
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_6_480X800.png:vendor/etc/res/images/number_6_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/slog_modem_autotest.conf:system/vendor/etc/slog_modem_autotest.conf
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_6_720X1280.png:vendor/etc/res/images/number_6_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/slog_modem_cali.conf:system/vendor/etc/slog_modem_cali.conf
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_7_1080X1920.png:vendor/etc/res/images/number_7_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/slog_modem_factory.conf:system/vendor/etc/slog_modem_factory.conf
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_7_1440X2560.png:vendor/etc/res/images/number_7_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/smart_amp_init.bin:system/vendor/etc/smart_amp_init.bin
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_7_360X640.png:vendor/etc/res/images/number_7_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/spirentroot.cer:system/vendor/etc/spirentroot.cer
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_7_480X800.png:vendor/etc/res/images/number_7_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/supl.xml:system/vendor/etc/supl.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_7_720X1280.png:vendor/etc/res/images/number_7_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/thermal.conf:system/vendor/etc/thermal.conf
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_8_1080X1920.png:vendor/etc/res/images/number_8_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/tiny_hw.xml:system/vendor/etc/tiny_hw.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_8_1440X2560.png:vendor/etc/res/images/number_8_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/usb_audio_policy_configuration.xml:system/vendor/etc/usb_audio_policy_configuration.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_8_360X640.png:vendor/etc/res/images/number_8_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/lib/modules/sprdwl_ng.ko:system/vendor/lib/modules/sprdwl_ng.ko \
+    vendor/qin/qin2pro/proprietary/vendor/lib/modules/sprdbt_tty.ko:system/vendor/lib/modules/sprdbt_tty.ko \
+    vendor/qin/qin2pro/proprietary/vendor/lib/modules/sprd_fm.ko:system/vendor/lib/modules/sprd_fm.ko \
+    vendor/qin/qin2pro/proprietary/vendor/lib/modules/pvrsrvkm.ko:system/vendor/lib/modules/pvrsrvkm.ko
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_8_480X800.png:vendor/etc/res/images/number_8_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/etc/wifi/wpa_supplicant.conf:system/vendor/etc/wifi/wpa_supplicant.conf \
+    vendor/qin/qin2pro/proprietary/vendor/etc/wifi/p2p_supplicant.conf:system/vendor/etc/wifi/p2p_supplicant.conf
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_8_720X1280.png:vendor/etc/res/images/number_8_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/firmware/EXEC_CALIBRATE_MAG_IMAGE:system/vendor/firmware/EXEC_CALIBRATE_MAG_IMAGE
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_9_1080X1920.png:vendor/etc/res/images/number_9_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/firmware/faceid.elf:system/vendor/firmware/faceid.elf
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_9_1440X2560.png:vendor/etc/res/images/number_9_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/firmware/focaltech-FT5x46.bin:system/vendor/firmware/focaltech-FT5x46.bin
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_9_360X640.png:vendor/etc/res/images/number_9_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/firmware/mafp.elf:system/vendor/firmware/mafp.elf
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_9_480X800.png:vendor/etc/res/images/number_9_480X800.png
+    vendor/qin/qin2pro/proprietary/vendor/firmware/rgx.fw.signed.22.86.104.218:system/vendor/firmware/rgx.fw.signed.22.86.104.218
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_9_720X1280.png:vendor/etc/res/images/number_9_720X1280.png
+    vendor/qin/qin2pro/proprietary/vendor/media/audio_sample.pcm:system/vendor/media/audio_sample.pcm
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_percent_1080X1920.png:vendor/etc/res/images/number_percent_1080X1920.png
+    vendor/qin/qin2pro/proprietary/vendor/ueventd.rc:system/vendor/etc/ueventd.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_percent_1440X2560.png:vendor/etc/res/images/number_percent_1440X2560.png
+    vendor/qin/qin2pro/proprietary/vendor/usr/idc/adaptive_ts.idc:system/vendor/usr/idc/adaptive_ts.idc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_percent_360X640.png:vendor/etc/res/images/number_percent_360X640.png
+    vendor/qin/qin2pro/proprietary/vendor/usr/keylayout/adaptive_ts.kl:system/vendor/usr/keylayout/adaptive_ts.kl
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_percent_480X800.png:vendor/etc/res/images/number_percent_480X800.png
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/res/images/number_percent_720X1280.png:vendor/etc/res/images/number_percent_720X1280.png
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/rx_data.pcm:vendor/etc/rx_data.pcm
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/seccomp_policy/configstore@1.1.policy:vendor/etc/seccomp_policy/configstore@1.1.policy
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:vendor/etc/seccomp_policy/mediaextractor.policy
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/selinux/plat_pub_versioned.cil:vendor/etc/selinux/plat_pub_versioned.cil
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/selinux/plat_sepolicy_vers.txt:vendor/etc/selinux/plat_sepolicy_vers.txt
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/selinux/precompiled_sepolicy:vendor/etc/selinux/precompiled_sepolicy
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/selinux/precompiled_sepolicy.plat_and_mapping.sha256:vendor/etc/selinux/precompiled_sepolicy.plat_and_mapping.sha256
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/selinux/vendor_file_contexts:vendor/etc/selinux/vendor_file_contexts
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/selinux/vendor_hwservice_contexts:vendor/etc/selinux/vendor_hwservice_contexts
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/selinux/vendor_mac_permissions.xml:vendor/etc/selinux/vendor_mac_permissions.xml
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/selinux/vendor_property_contexts:vendor/etc/selinux/vendor_property_contexts
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/selinux/vendor_seapp_contexts:vendor/etc/selinux/vendor_seapp_contexts
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/selinux/vendor_sepolicy.cil:vendor/etc/selinux/vendor_sepolicy.cil
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/selinux/vndservice_contexts:vendor/etc/selinux/vndservice_contexts
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/slog_modem.conf:vendor/etc/slog_modem.conf
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/slog_modem_autotest.conf:vendor/etc/slog_modem_autotest.conf
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/slog_modem_cali.conf:vendor/etc/slog_modem_cali.conf
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/slog_modem_factory.conf:vendor/etc/slog_modem_factory.conf
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/smart_amp_init.bin:vendor/etc/smart_amp_init.bin
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/spirentroot.cer:vendor/etc/spirentroot.cer
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/supl.xml:vendor/etc/supl.xml
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/thermal.conf:vendor/etc/thermal.conf
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/tiny_hw.xml:vendor/etc/tiny_hw.xml
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/usb_audio_policy_configuration.xml:vendor/etc/usb_audio_policy_configuration.xml
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/vintf/compatibility_matrix.xml:vendor/etc/vintf/compatibility_matrix.xml
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/vintf/manifest.xml:vendor/etc/vintf/manifest.xml
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/wifi/wpa_supplicant.conf:vendor/etc/wifi/wpa_supplicant.conf
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/firmware/EXEC_CALIBRATE_MAG_IMAGE:vendor/firmware/EXEC_CALIBRATE_MAG_IMAGE
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/firmware/faceid.elf:vendor/firmware/faceid.elf
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/firmware/focaltech-FT5x46.bin:vendor/firmware/focaltech-FT5x46.bin
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/firmware/mafp.elf:vendor/firmware/mafp.elf
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/firmware/rgx.fw.signed.22.86.104.218:vendor/firmware/rgx.fw.signed.22.86.104.218
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/media/audio_sample.pcm:vendor/media/audio_sample.pcm
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/ueventd.rc:vendor/ueventd.rc
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/usr/idc/adaptive_ts.idc:vendor/usr/idc/adaptive_ts.idc
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/usr/keylayout/adaptive_ts.kl:vendor/usr/keylayout/adaptive_ts.kl
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/usr/keylayout/gpio-keys.kl:vendor/usr/keylayout/gpio-keys.kl
+    vendor/qin/qin2pro/proprietary/vendor/usr/keylayout/gpio-keys.kl:system/vendor/usr/keylayout/gpio-keys.kl
 
 # Qin2Pro WIP: AOSP-built compatibility libs (32-bit OMX/RIL + audio/keymaster deps)
-PRODUCT_PACKAGES += qin_vendor_lib64_libmediautils_vendor_so
-PRODUCT_PACKAGES += qin_vendor_lib_libmediautils_vendor_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libsoftkeymasterdevice_so
 PRODUCT_PACKAGES += qin_vendor_lib_libminijail_so
-PRODUCT_PACKAGES += qin_vendor_lib_libhwbinder_so
-PRODUCT_PACKAGES += qin_vendor_lib64_libhwbinder_so
