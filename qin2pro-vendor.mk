@@ -93,7 +93,6 @@ PRODUCT_PACKAGES += qin_vendor_lib64_hw_gatekeeper_default_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_gps_default_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_gralloc_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_gsp_sp9863a_so
-PRODUCT_PACKAGES += qin_vendor_lib64_hw_hwcomposer_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_keystore_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_keystore_sprdtrusty_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_lights_sp9863a_so
@@ -266,7 +265,6 @@ PRODUCT_PACKAGES += qin_vendor_lib_hw_gatekeeper_default_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_gps_default_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_gralloc_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_gsp_sp9863a_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_hwcomposer_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_keystore_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_keystore_sprdtrusty_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_lights_sp9863a_so
@@ -1017,5 +1015,27 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/qin/qin2pro/proprietary/vendor/usr/keylayout/gpio-keys.kl:system/vendor/usr/keylayout/gpio-keys.kl
 
+# stock audio HAL impls (32-bit patched: updateSink/SourceMetadata no-op)
+PRODUCT_PACKAGES += qin_audio4_impl_override qin_audio_effect4_impl_override
 # Qin2Pro WIP: AOSP-built compatibility libs (32-bit OMX/RIL + audio/keymaster deps)
 PRODUCT_PACKAGES += qin_vendor_lib_libminijail_so
+# SPRD wifi HAL blob under -sprd name (AOSP libwifi-hal stub occupies the plain name);
+# vendor_hals descriptor points wifi@1.0-service at it
+PRODUCT_COPY_FILES +=     vendor/qin/qin2pro/proprietary/vendor/lib64/libwifi-hal-sprd.so:system/vendor/lib64/libwifi-hal-sprd.so
+PRODUCT_COPY_FILES +=     vendor/qin/qin2pro/proprietary/vendor/lib/libwifi-hal-sprd.so:system/vendor/lib/libwifi-hal-sprd.so
+PRODUCT_COPY_FILES +=     vendor/qin/qin2pro/proprietary/vendor/etc/wifi/vendor_hals/sprd.xml:system/vendor/etc/wifi/vendor_hals/sprd.xml
+
+PRODUCT_PACKAGES += qin_stock_libhwc2on1adapter
+
+PRODUCT_PACKAGES += qin_stock_libhwc2onfbadapter
+
+PRODUCT_COPY_FILES += vendor/qin/qin2pro/proprietary/vendor/lib/android.hardware.soundtrigger@2.0.so:system/vendor/lib/android.hardware.soundtrigger@2.0.so
+
+
+PRODUCT_PACKAGES += qin_stock_graphics_mapper_2_0_impl
+
+PRODUCT_PACKAGES += qin_stock_graphics_allocator_2_0_impl
+
+PRODUCT_PACKAGES += qin_stock_ir_1_0_impl
+
+PRODUCT_PACKAGES += qin_stock_consumerir_default

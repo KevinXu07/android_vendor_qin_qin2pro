@@ -44,32 +44,6 @@ on init
 on boot
     setprop sys.usb.configfs 1
 
-on property:sys.usb.ffs.ready=1 && property:sys.usb.config=adb && property:sys.usb.configfs=1
-    write /config/usb_gadget/g1/idVendor 0x18d1
-    write /config/usb_gadget/g1/idProduct 0x4EE7
-    write /config/usb_gadget/g1/bcdDevice 0x0404
-    write /config/usb_gadget/g1/bDeviceClass 0
-    rm /config/usb_gadget/g1/configs/b.1/f1
-    rm /config/usb_gadget/g1/configs/b.1/f2
-    rm /config/usb_gadget/g1/configs/b.1/f3
-    rm /config/usb_gadget/g1/configs/b.1/f4
-    rm /config/usb_gadget/g1/configs/b.1/f5
-    rm /config/usb_gadget/g1/configs/b.1/f6
-    rm /config/usb_gadget/g1/configs/b.1/f7
-    rm /config/usb_gadget/g1/configs/b.1/f8
-    rm /config/usb_gadget/g1/configs/b.1/f9
-    rm /config/usb_gadget/g1/configs/b.1/f10
-    rm /config/usb_gadget/g1/configs/b.1/f11
-    symlink /config/usb_gadget/g1/functions/ffs.adb /config/usb_gadget/g1/configs/b.1/f1
-    symlink /config/usb_gadget/g1/functions/gser.gs0 /config/usb_gadget/g1/configs/b.1/f2
-    symlink /config/usb_gadget/g1/functions/gser.gs1 /config/usb_gadget/g1/configs/b.1/f3
-    symlink /config/usb_gadget/g1/functions/gser.gs2 /config/usb_gadget/g1/configs/b.1/f4
-    symlink /config/usb_gadget/g1/functions/gser.gs3 /config/usb_gadget/g1/configs/b.1/f5
-    symlink /config/usb_gadget/g1/functions/gser.gs4 /config/usb_gadget/g1/configs/b.1/f6
-    symlink /config/usb_gadget/g1/functions/gser.gs5 /config/usb_gadget/g1/configs/b.1/f7
-    symlink /config/usb_gadget/g1/functions/gser.gs6 /config/usb_gadget/g1/configs/b.1/f8
-    symlink /config/usb_gadget/g1/functions/gser.gs7 /config/usb_gadget/g1/configs/b.1/f9
-
 on property:sys.usb.config=mtp && property:sys.usb.configfs=1
     write /config/usb_gadget/g1/idVendor 0x1782
     write /config/usb_gadget/g1/idProduct 0x4001

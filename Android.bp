@@ -1618,16 +1618,7 @@ cc_prebuilt_library_shared {
 }
 
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_hw_hwcomposer_sp9863a_so",
-    stem: "hwcomposer.sp9863a",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/hw/hwcomposer.sp9863a.so"],
-}
+
 
 
 
@@ -3587,16 +3578,7 @@ cc_prebuilt_library_shared {
 }
 
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_hwcomposer_sp9863a_so",
-    stem: "hwcomposer.sp9863a",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/hwcomposer.sp9863a.so"],
-}
+
 
 
 
@@ -4823,3 +4805,134 @@ cc_prebuilt_library_shared {
 
 
 
+
+// Stock audio impl blobs (P-era ABI); override the AOSP-built impls which
+// write S-layout audio_config into the P-layout stock primary HAL stack.
+// The 32-bit impl is additionally binary-patched: StreamIn::updateSinkMetadata
+// and StreamOut::updateSourceMetadata are no-oped (bx lr) because the P blob's
+// audio_stream_in/out lack those callback pointers.
+cc_prebuilt_library_shared {
+    name: "qin_audio4_impl_override",
+    stem: "android.hardware.audio@4.0-impl",
+    vendor: true,
+    compile_multilib: "both",
+    multilib: {
+        lib32: { srcs: ["proprietary/vendor/lib/hw/android.hardware.audio@4.0-impl.so"] },
+        lib64: { srcs: ["proprietary/vendor/lib64/hw/android.hardware.audio@4.0-impl.so"] },
+    },
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    overrides: ["android.hardware.audio@4.0-impl"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_audio_effect4_impl_override",
+    stem: "android.hardware.audio.effect@4.0-impl",
+    vendor: true,
+    compile_multilib: "both",
+    multilib: {
+        lib32: { srcs: ["proprietary/vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so"] },
+        lib64: { srcs: ["proprietary/vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so"] },
+    },
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    overrides: ["android.hardware.audio.effect@4.0-impl"],
+}
+
+// Match the stock composer wrapper's private adapter ABI.
+cc_prebuilt_library_shared {
+    name: "qin_stock_libhwc2on1adapter",
+    stem: "libhwc2on1adapter",
+    vendor: true,
+    compile_multilib: "both",
+    strip: { none: true },
+    check_elf_files: false,
+    arch: {
+        arm: { srcs: ["proprietary/vendor/lib/libhwc2on1adapter.so"] },
+        arm64: { srcs: ["proprietary/vendor/lib64/libhwc2on1adapter.so"] },
+    },
+}
+
+// Match the stock composer wrapper's private adapter ABI.
+cc_prebuilt_library_shared {
+    name: "qin_stock_libhwc2onfbadapter",
+    stem: "libhwc2onfbadapter",
+    vendor: true,
+    compile_multilib: "both",
+    strip: { none: true },
+    check_elf_files: false,
+    arch: {
+        arm: { srcs: ["proprietary/vendor/lib/libhwc2onfbadapter.so"] },
+        arm64: { srcs: ["proprietary/vendor/lib64/libhwc2onfbadapter.so"] },
+    },
+}
+
+// Stock gralloc wrapper verified against IMG Rogue on the running board.
+// Keep this explicit: removing the conflicting generic blob module must not
+// remove the only installed mapper/allocator implementation from the image.
+cc_prebuilt_library_shared {
+    name: "qin_stock_graphics_mapper_2_0_impl",
+    stem: "android.hardware.graphics.mapper@2.0-impl",
+    vendor: true,
+    relative_install_path: "hw",
+    compile_multilib: "both",
+    strip: { none: true },
+    check_elf_files: false,
+    arch: {
+        arm: { srcs: ["proprietary/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so"] },
+        arm64: { srcs: ["proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so"] },
+    },
+}
+
+// Stock gralloc wrapper verified against IMG Rogue on the running board.
+// Keep this explicit: removing the conflicting generic blob module must not
+// remove the only installed mapper/allocator implementation from the image.
+cc_prebuilt_library_shared {
+    name: "qin_stock_graphics_allocator_2_0_impl",
+    stem: "android.hardware.graphics.allocator@2.0-impl",
+    vendor: true,
+    relative_install_path: "hw",
+    compile_multilib: "both",
+    strip: { none: true },
+    check_elf_files: false,
+    arch: {
+        arm: { srcs: ["proprietary/vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so"] },
+        arm64: { srcs: ["proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so"] },
+    },
+}
+
+// Stock gralloc wrapper verified against IMG Rogue on the running board.
+// Keep this explicit: removing the conflicting generic blob module must not
+// remove the only installed mapper/allocator implementation from the image.
+cc_prebuilt_library_shared {
+    name: "qin_stock_ir_1_0_impl",
+    stem: "android.hardware.ir@1.0-impl",
+    vendor: true,
+    relative_install_path: "hw",
+    compile_multilib: "both",
+    strip: { none: true },
+    check_elf_files: false,
+    arch: {
+        arm: { srcs: ["proprietary/vendor/lib/hw/android.hardware.ir@1.0-impl.so"] },
+        arm64: { srcs: ["proprietary/vendor/lib64/hw/android.hardware.ir@1.0-impl.so"] },
+    },
+}
+
+// Stock gralloc wrapper verified against IMG Rogue on the running board.
+// Keep this explicit: removing the conflicting generic blob module must not
+// remove the only installed mapper/allocator implementation from the image.
+cc_prebuilt_library_shared {
+    name: "qin_stock_consumerir_default",
+    stem: "consumerir.default",
+    vendor: true,
+    relative_install_path: "hw",
+    compile_multilib: "both",
+    strip: { none: true },
+    check_elf_files: false,
+    arch: {
+        arm: { srcs: ["proprietary/vendor/lib/hw/consumerir.default.so"] },
+        arm64: { srcs: ["proprietary/vendor/lib64/hw/consumerir.default.so"] },
+    },
+}
