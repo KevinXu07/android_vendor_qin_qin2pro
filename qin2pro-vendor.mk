@@ -156,6 +156,7 @@ PRODUCT_PACKAGES += qin_vendor_lib64_liblcsagent_so
 PRODUCT_PACKAGES += qin_vendor_lib64_liblcscp_so
 PRODUCT_PACKAGES += qin_vendor_lib64_liblcsmgt_so
 PRODUCT_PACKAGES += qin_vendor_lib64_liblcswbxml2_so
+PRODUCT_PACKAGES += qin_vendor_lib64_libcld80211_so
 PRODUCT_PACKAGES += qin_vendor_lib64_liblowi_wifihal_so
 PRODUCT_PACKAGES += qin_vendor_lib64_liblsc_so
 PRODUCT_PACKAGES += qin_vendor_lib64_liblte_so
@@ -338,6 +339,7 @@ PRODUCT_PACKAGES += qin_vendor_lib_liblcsagent_so
 PRODUCT_PACKAGES += qin_vendor_lib_liblcscp_so
 PRODUCT_PACKAGES += qin_vendor_lib_liblcsmgt_so
 PRODUCT_PACKAGES += qin_vendor_lib_liblcswbxml2_so
+PRODUCT_PACKAGES += qin_vendor_lib_libcld80211_so
 PRODUCT_PACKAGES += qin_vendor_lib_liblowi_wifihal_so
 PRODUCT_PACKAGES += qin_vendor_lib_liblsc_so
 PRODUCT_PACKAGES += qin_vendor_lib_liblte_so
@@ -545,9 +547,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/qin/qin2pro/proprietary/vendor/etc/config.xml:system/vendor/etc/config.xml
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/connectivity_calibration.ini:system/vendor/etc/connectivity_calibration.ini
+    vendor/qin/qin2pro/proprietary/vendor/etc/connectivity_calibration.ini:system/vendor/etc/connectivity_calibration.ini \
+    vendor/qin/qin2pro/proprietary/vendor/etc/connectivity_calibration.ini:system/etc/connectivity_calibration.ini
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/connectivity_configure.ini:system/vendor/etc/connectivity_configure.ini
+    vendor/qin/qin2pro/proprietary/vendor/etc/connectivity_configure.ini:system/vendor/etc/connectivity_configure.ini \
+    vendor/qin/qin2pro/proprietary/vendor/etc/connectivity_configure.ini:system/etc/connectivity_configure.ini
 PRODUCT_COPY_FILES += \
     vendor/qin/qin2pro/proprietary/vendor/etc/default_volume_tables.xml:system/vendor/etc/default_volume_tables.xml
 PRODUCT_COPY_FILES += \
@@ -1019,9 +1023,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += qin_audio4_impl_override qin_audio_effect4_impl_override
 # Qin2Pro WIP: AOSP-built compatibility libs (32-bit OMX/RIL + audio/keymaster deps)
 PRODUCT_PACKAGES += qin_vendor_lib_libminijail_so
-# SPRD wifi HAL blob under -sprd name (AOSP libwifi-hal stub occupies the plain name);
-# vendor_hals descriptor points wifi@1.0-service at it
-PRODUCT_COPY_FILES +=     vendor/qin/qin2pro/proprietary/vendor/lib64/libwifi-hal-sprd.so:system/vendor/lib64/libwifi-hal-sprd.so
+# SPRD wifi HAL blob renamed -impl; libwifi-hal-sprd.so is now a NULL-guard
+# shim (device/qin/qin2pro/wifihal_shim) that dlopens this blob.
+PRODUCT_COPY_FILES +=     vendor/qin/qin2pro/proprietary/vendor/lib64/libwifi-hal-sprd.so:system/vendor/lib64/libwifi-hal-sprd-impl.so
+PRODUCT_PACKAGES += libwifi-hal-sprd
 PRODUCT_COPY_FILES +=     vendor/qin/qin2pro/proprietary/vendor/lib/libwifi-hal-sprd.so:system/vendor/lib/libwifi-hal-sprd.so
 PRODUCT_COPY_FILES +=     vendor/qin/qin2pro/proprietary/vendor/etc/wifi/vendor_hals/sprd.xml:system/vendor/etc/wifi/vendor_hals/sprd.xml
 

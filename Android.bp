@@ -1187,6 +1187,16 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libcld80211_so",
+    stem: "libcld80211",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libcld80211.so"],
+}
+
+cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_liblowi_wifihal_so",
     stem: "liblowi_wifihal",
     vendor: true,
@@ -3135,6 +3145,16 @@ cc_prebuilt_library_shared {
     strip: { none: true },
     check_elf_files: false,
     srcs: ["proprietary/vendor/lib/libsprdfd.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libcld80211_so",
+    stem: "libcld80211",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libcld80211.so"],
 }
 
 cc_prebuilt_library_shared {
