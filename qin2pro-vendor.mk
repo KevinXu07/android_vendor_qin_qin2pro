@@ -152,6 +152,8 @@ PRODUCT_PACKAGES += qin_vendor_lib64_libispalg_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libiwnpi_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libjpeg_hw_sprd_so
 PRODUCT_PACKAGES += qin_vendor_lib64_libkernelbootcp_trusty_so
+PRODUCT_PACKAGES += qin_vendor_lib64_libtrusty_so
+PRODUCT_PACKAGES += qin_vendor_lib_libtrusty_so
 PRODUCT_PACKAGES += qin_vendor_lib64_liblcsagent_so
 PRODUCT_PACKAGES += qin_vendor_lib64_liblcscp_so
 PRODUCT_PACKAGES += qin_vendor_lib64_liblcsmgt_so
@@ -579,8 +581,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc:system/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
-PRODUCT_COPY_FILES += \
     vendor/qin/qin2pro/proprietary/vendor/etc/init/android.hardware.usb@1.1-service.rc:system/vendor/etc/init/android.hardware.usb@1.1-service.rc
 PRODUCT_COPY_FILES += \
     vendor/qin/qin2pro/proprietary/vendor/etc/init/autotest.rc:system/vendor/etc/init/autotest.rc
@@ -627,13 +627,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/qin/qin2pro/proprietary/vendor/etc/init/refnotify.rc:system/vendor/etc/init/refnotify.rc
 PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/rpmbserver_androido.rc:system/vendor/etc/init/rpmbserver_androido.rc
-PRODUCT_COPY_FILES += \
     vendor/qin/qin2pro/proprietary/vendor/etc/init/slogmodem.rc:system/vendor/etc/init/slogmodem.rc
 PRODUCT_COPY_FILES += \
     vendor/qin/qin2pro/proprietary/vendor/etc/init/srtd.rc:system/vendor/etc/init/srtd.rc
-PRODUCT_COPY_FILES += \
-    vendor/qin/qin2pro/proprietary/vendor/etc/init/storageproxyd_androidp.rc:system/vendor/etc/init/storageproxyd_androidp.rc
 PRODUCT_COPY_FILES += \
     vendor/qin/qin2pro/proprietary/vendor/etc/init/thermald.rc:system/vendor/etc/init/thermald.rc
 PRODUCT_COPY_FILES += \
@@ -1044,3 +1040,79 @@ PRODUCT_PACKAGES += qin_stock_graphics_allocator_2_0_impl
 PRODUCT_PACKAGES += qin_stock_ir_1_0_impl
 
 PRODUCT_PACKAGES += qin_stock_consumerir_default
+
+# vendor-lib closure shims (stock blobs + unversioned protobuf name)
+PRODUCT_PACKAGES += \
+    qin_vendor_lib64_android_hardware_radio_deprecated_1_0_so \
+    qin_vendor_lib_android_hardware_radio_deprecated_1_0_so \
+    qin_vendor_lib64_libsensorndkbridge_so \
+    qin_vendor_lib_libsensorndkbridge_so \
+    qin_vendor_lib64_libprotobuf_cpp_lite_shim_so \
+    qin_vendor_lib_libprotobuf_cpp_lite_shim_so
+
+# vndk libs the apex dropped; vendor/lib64 direct-path copies
+PRODUCT_PACKAGES += \
+    qin_vlib64_android_hardware_audio_common_2_0 \
+    qin_vlib_android_hardware_audio_common_2_0 \
+    qin_vlib64_android_hardware_configstore_1_0 \
+    qin_vlib_android_hardware_configstore_1_0 \
+    qin_vlib64_android_hardware_configstore_1_1 \
+    qin_vlib_android_hardware_configstore_1_1 \
+    qin_vlib64_android_hardware_graphics_allocator_2_0 \
+    qin_vlib_android_hardware_graphics_allocator_2_0 \
+    qin_vlib64_android_hardware_media_omx_1_0 \
+    qin_vlib_android_hardware_media_omx_1_0 \
+    qin_vlib64_libaudioutils \
+    qin_vlib_libaudioutils \
+    qin_vlib64_libcamera_metadata \
+    qin_vlib_libcamera_metadata \
+    qin_vlib64_libcap \
+    qin_vlib_libcap \
+    qin_vlib64_libfmq \
+    qin_vlib_libfmq \
+    qin_vlib64_libhardware_legacy \
+    qin_vlib_libhardware_legacy \
+    qin_vlib64_libmedia_helper \
+    qin_vlib_libmedia_helper \
+    qin_vlib64_libnetutils \
+    qin_vlib_libnetutils \
+    qin_vlib64_libnl \
+    qin_vlib_libnl \
+    qin_vlib64_libpng \
+    qin_vlib_libpng \
+    qin_vlib64_libpower \
+    qin_vlib_libpower \
+    qin_vlib64_libsysutils \
+    qin_vlib_libsysutils \
+    qin_vlib64_libtinyalsa \
+    qin_vlib_libtinyalsa \
+    qin_vlib64_libtinyxml2 \
+    qin_vlib_libtinyxml2 \
+    qin_vlib64_libwifi_system_iface \
+    qin_vlib_libwifi_system_iface \
+    qin_vlib64_libyuv \
+    qin_vlib_libyuv \
+    qin_vlib64_libziparchive \
+    qin_vlib_libziparchive
+
+# second-order deps of copied vndk libs
+PRODUCT_PACKAGES += \
+    qin_vlib64_android_hardware_graphics_bufferqueue_1_0 \
+    qin_vlib_android_hardware_graphics_bufferqueue_1_0 \
+    qin_vlib64_android_hardware_media_1_0 \
+    qin_vlib_android_hardware_media_1_0 \
+    qin_vlib64_android_system_suspend_1_0 \
+    qin_vlib_android_system_suspend_1_0 \
+    qin_vlib64_libjpeg \
+    qin_vlib_libjpeg \
+    qin_vlib64_libspeexresampler \
+    qin_vlib_libspeexresampler
+
+# libui closure for sphal namespace
+PRODUCT_PACKAGES += \
+    qin_vlib64_libui \
+    qin_vlib_libui \
+    qin_vlib64_android_hardware_graphics_allocator_3_0 \
+    qin_vlib_android_hardware_graphics_allocator_3_0 \
+    qin_vlib64_android_hardware_graphics_allocator_4_0 \
+    qin_vlib_android_hardware_graphics_allocator_4_0

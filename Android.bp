@@ -4956,3 +4956,727 @@ cc_prebuilt_library_shared {
         arm64: { srcs: ["proprietary/vendor/lib64/hw/consumerir.default.so"] },
     },
 }
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libtrusty_so",
+    stem: "libtrusty",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libtrusty.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libtrusty_so",
+    stem: "libtrusty",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libtrusty.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_android_hardware_radio_deprecated_1_0_so",
+    stem: "android.hardware.radio.deprecated@1.0",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/android.hardware.radio.deprecated@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_android_hardware_radio_deprecated_1_0_so",
+    stem: "android.hardware.radio.deprecated@1.0",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/android.hardware.radio.deprecated@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libsensorndkbridge_so",
+    stem: "libsensorndkbridge",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsensorndkbridge.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libsensorndkbridge_so",
+    stem: "libsensorndkbridge",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsensorndkbridge.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_libprotobuf_cpp_lite_shim_so",
+    stem: "libprotobuf-cpp-lite",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libprotobuf-cpp-lite.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_libprotobuf_cpp_lite_shim_so",
+    stem: "libprotobuf-cpp-lite",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libprotobuf-cpp-lite.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_android_hardware_audio_common_2_0",
+    stem: "android.hardware.audio.common@2.0",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/android.hardware.audio.common@2.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_android_hardware_audio_common_2_0",
+    stem: "android.hardware.audio.common@2.0",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/android.hardware.audio.common@2.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_android_hardware_configstore_1_0",
+    stem: "android.hardware.configstore@1.0",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/android.hardware.configstore@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_android_hardware_configstore_1_0",
+    stem: "android.hardware.configstore@1.0",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/android.hardware.configstore@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_android_hardware_configstore_1_1",
+    stem: "android.hardware.configstore@1.1",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/android.hardware.configstore@1.1.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_android_hardware_configstore_1_1",
+    stem: "android.hardware.configstore@1.1",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/android.hardware.configstore@1.1.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_android_hardware_graphics_allocator_2_0",
+    stem: "android.hardware.graphics.allocator@2.0",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/android.hardware.graphics.allocator@2.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_android_hardware_graphics_allocator_2_0",
+    stem: "android.hardware.graphics.allocator@2.0",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/android.hardware.graphics.allocator@2.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_android_hardware_media_omx_1_0",
+    stem: "android.hardware.media.omx@1.0",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/android.hardware.media.omx@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_android_hardware_media_omx_1_0",
+    stem: "android.hardware.media.omx@1.0",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/android.hardware.media.omx@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libaudioutils",
+    stem: "libaudioutils",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libaudioutils.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libaudioutils",
+    stem: "libaudioutils",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libaudioutils.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libcamera_metadata",
+    stem: "libcamera_metadata",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libcamera_metadata.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libcamera_metadata",
+    stem: "libcamera_metadata",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libcamera_metadata.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libcap",
+    stem: "libcap",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libcap.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libcap",
+    stem: "libcap",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libcap.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libfmq",
+    stem: "libfmq",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libfmq.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libfmq",
+    stem: "libfmq",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libfmq.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libhardware_legacy",
+    stem: "libhardware_legacy",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libhardware_legacy.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libhardware_legacy",
+    stem: "libhardware_legacy",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libhardware_legacy.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libmedia_helper",
+    stem: "libmedia_helper",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libmedia_helper.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libmedia_helper",
+    stem: "libmedia_helper",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libmedia_helper.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libnetutils",
+    stem: "libnetutils",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libnetutils.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libnetutils",
+    stem: "libnetutils",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libnetutils.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libnl",
+    stem: "libnl",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libnl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libnl",
+    stem: "libnl",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libnl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libpng",
+    stem: "libpng",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libpng.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libpng",
+    stem: "libpng",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libpng.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libpower",
+    stem: "libpower",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libpower.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libpower",
+    stem: "libpower",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libpower.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libsysutils",
+    stem: "libsysutils",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libsysutils.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libsysutils",
+    stem: "libsysutils",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libsysutils.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libtinyalsa",
+    stem: "libtinyalsa",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libtinyalsa.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libtinyalsa",
+    stem: "libtinyalsa",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libtinyalsa.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libtinyxml2",
+    stem: "libtinyxml2",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libtinyxml2.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libtinyxml2",
+    stem: "libtinyxml2",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libtinyxml2.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libwifi_system_iface",
+    stem: "libwifi-system-iface",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libwifi-system-iface.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libwifi_system_iface",
+    stem: "libwifi-system-iface",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libwifi-system-iface.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libyuv",
+    stem: "libyuv",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libyuv.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libyuv",
+    stem: "libyuv",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libyuv.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libziparchive",
+    stem: "libziparchive",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libziparchive.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libziparchive",
+    stem: "libziparchive",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libziparchive.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_android_hardware_graphics_bufferqueue_1_0",
+    stem: "android.hardware.graphics.bufferqueue@1.0",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/android.hardware.graphics.bufferqueue@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_android_hardware_graphics_bufferqueue_1_0",
+    stem: "android.hardware.graphics.bufferqueue@1.0",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/android.hardware.graphics.bufferqueue@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_android_hardware_media_1_0",
+    stem: "android.hardware.media@1.0",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/android.hardware.media@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_android_hardware_media_1_0",
+    stem: "android.hardware.media@1.0",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/android.hardware.media@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_android_system_suspend_1_0",
+    stem: "android.system.suspend@1.0",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/android.system.suspend@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_android_system_suspend_1_0",
+    stem: "android.system.suspend@1.0",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/android.system.suspend@1.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libjpeg",
+    stem: "libjpeg",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libjpeg.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libjpeg",
+    stem: "libjpeg",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libjpeg.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libspeexresampler",
+    stem: "libspeexresampler",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libspeexresampler.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libspeexresampler",
+    stem: "libspeexresampler",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libspeexresampler.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_libui",
+    stem: "libui",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/libui.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_libui",
+    stem: "libui",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/libui.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_android_hardware_graphics_allocator_3_0",
+    stem: "android.hardware.graphics.allocator@3.0",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/android.hardware.graphics.allocator@3.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_android_hardware_graphics_allocator_3_0",
+    stem: "android.hardware.graphics.allocator@3.0",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/android.hardware.graphics.allocator@3.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib64_android_hardware_graphics_allocator_4_0",
+    stem: "android.hardware.graphics.allocator@4.0",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/android.hardware.graphics.allocator@4.0.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vlib_android_hardware_graphics_allocator_4_0",
+    stem: "android.hardware.graphics.allocator@4.0",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/android.hardware.graphics.allocator@4.0.so"],
+}
