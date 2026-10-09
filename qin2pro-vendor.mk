@@ -86,7 +86,6 @@ PRODUCT_PACKAGES += qin_vendor_lib64_hw_android_hardware_bluetooth_a2dp_1_0_impl
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_android_hardware_camera_provider_2_4_impl_sprd_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_android_hardware_graphics_composer_2_1_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_android_hardware_health_1_0_impl_so
-PRODUCT_PACKAGES += qin_vendor_lib64_hw_camera_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_dpu_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_enhance_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib64_hw_gatekeeper_default_so
@@ -261,7 +260,6 @@ PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_camera_provider_2_4_impl_
 PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_graphics_composer_2_1_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_android_hardware_health_1_0_impl_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_audio_primary_sp9863a_so
-PRODUCT_PACKAGES += qin_vendor_lib_hw_camera_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_dpu_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_enhance_sp9863a_so
 PRODUCT_PACKAGES += qin_vendor_lib_hw_gatekeeper_default_so
@@ -1116,3 +1114,10 @@ PRODUCT_PACKAGES += \
     qin_vlib_android_hardware_graphics_allocator_3_0 \
     qin_vlib64_android_hardware_graphics_allocator_4_0 \
     qin_vlib_android_hardware_graphics_allocator_4_0
+
+# remaining camera closure impls (stock blobs)
+PRODUCT_PACKAGES += \
+    qin_vendor_lib64_camera_device_1_0_impl_so \
+    qin_vendor_lib_camera_device_1_0_impl_so \
+    qin_vendor_lib64_camera_device_3_4_external_impl_so \
+    qin_vendor_lib_camera_device_3_4_external_impl_so

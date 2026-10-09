@@ -84,3 +84,4 @@
 /dev/pvr_sync             0666   system     graphics
 /dev/dri/*                0666   system     graphics
 /dev/ttyBT*               0660   bluetooth  bluetooth
+/sys/class/leds/flashlight* /brightness 0666 system system

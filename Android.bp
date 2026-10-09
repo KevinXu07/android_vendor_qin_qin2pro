@@ -1441,16 +1441,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib64/production/libpubefuseapi.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib64_hw_camera_sp9863a_so",
-    stem: "camera.sp9863a",
-    vendor: true,
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib64/hw/camera.sp9863a.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib64_hw_vendor_sprd_hardware_aprd_1_0_impl_so",
@@ -3410,16 +3400,6 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/production/libpubefuseapi.so"],
 }
 
-cc_prebuilt_library_shared {
-    name: "qin_vendor_lib_hw_camera_sp9863a_so",
-    stem: "camera.sp9863a",
-    vendor: true,
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    strip: { none: true },
-    check_elf_files: false,
-    srcs: ["proprietary/vendor/lib/hw/camera.sp9863a.so"],
-}
 
 cc_prebuilt_library_shared {
     name: "qin_vendor_lib_hw_vendor_sprd_hardware_aprd_1_0_impl_so",
@@ -5680,3 +5660,44 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
     srcs: ["proprietary/vendor/lib/android.hardware.graphics.allocator@4.0.so"],
 }
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_camera_device_1_0_impl_so",
+    stem: "camera.device@1.0-impl",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/camera.device@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_camera_device_1_0_impl_so",
+    stem: "camera.device@1.0-impl",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/camera.device@1.0-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_camera_device_3_4_external_impl_so",
+    stem: "camera.device@3.4-external-impl",
+    vendor: true,
+    compile_multilib: "64",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/camera.device@3.4-external-impl.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_camera_device_3_4_external_impl_so",
+    stem: "camera.device@3.4-external-impl",
+    vendor: true,
+    compile_multilib: "32",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/camera.device@3.4-external-impl.so"],
+}
+
