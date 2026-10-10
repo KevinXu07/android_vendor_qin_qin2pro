@@ -5701,3 +5701,24 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/lib/camera.device@3.4-external-impl.so"],
 }
 
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib64_hw_camera_sp9863a_so",
+    stem: "camera.sp9863a",
+    vendor: true,
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib64/hw/camera.sp9863a.so"],
+}
+
+cc_prebuilt_library_shared {
+    name: "qin_vendor_lib_hw_camera_sp9863a_so",
+    stem: "camera.sp9863a",
+    vendor: true,
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    strip: { none: true },
+    check_elf_files: false,
+    srcs: ["proprietary/vendor/lib/hw/camera.sp9863a.so"],
+}
