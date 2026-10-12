@@ -282,7 +282,10 @@ on boot
 	chown system system /sys/class/thermal/thermal_zone0/trip_point_1_temp
 	chown system system /sys/class/power_supply/battery/chg_cool_state
 	chown system system /sys/class/power_supply/battery/adjust_cur_min
-	chown system system /sys/class/power_supply/battery/input_current_limit
+	# thermald clamps input current to ~0 on bogus trips, leaving the
+	# battery discharging while plugged in; keep the node read-only so
+	# only the kernel charger-type votes drive fan54015 INLIM.
+	chmod 0444 /sys/class/power_supply/battery/input_current_limit
     chown system system /sys/class/thermal/cooling_device0/min_core_num
     chown system system /sys/class/thermal/cooling_device0/min_freq
 
