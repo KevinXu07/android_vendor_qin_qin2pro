@@ -1,0 +1,18 @@
+#!/system/bin/sh
+
+# Keep Android's setting and the Qin2Pro panel PWM in sync.
+last=
+while true; do
+    value=$(/system/bin/settings get system screen_brightness 2>/dev/null)
+    case "$value" in
+        ''|null|*[!0-9]*) ;;
+        *)
+            [ "$value" -lt 1 ] && value=1
+            if [ "$value" != "$last" ]; then
+                echo "$value" > /sys/class/backlight/sprd_backlight/brightness
+                last="$value"
+            fi
+            ;;
+    esac
+    /system/bin/sleep 0.25
+done
