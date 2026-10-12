@@ -1,7 +1,3 @@
-on post-fs
-    insmod /vendor/lib/modules/sprd_vibrator.ko
-
-on boot
-    wait /sys/class/timed_output/vibrator/enable
-    chmod 664 /sys/class/timed_output/vibrator/enable
-    chown root system /sys/class/timed_output/vibrator/enable
+# The Qin vibrator is provided by the HIDL input-FF service.
+# The stock timed_output module is not present on this kernel, so waiting for
+# /sys/class/timed_output/vibrator/enable would add an unnecessary 5-second boot stall.
