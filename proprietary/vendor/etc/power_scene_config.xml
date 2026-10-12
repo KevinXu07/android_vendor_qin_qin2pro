@@ -24,7 +24,7 @@
             <set path="/dev" file="cluster0_freq_min" value="124F80" />
             <set path="/dev" file="cluster1_freq_max" value="17F4D0" />
             <set path="/dev" file="cluster1_freq_min" value="17F4D0" />
-            <set path="/sys/class/devfreq/scene-frequency/sprd_governor" file="scene_boost_dfs" value="max" />
+            <set path="/sys/class/devfreq/scene-frequency/sprd-governor" file="scene_boost_dfs" value="max" />
         </scene>
         <scene name="interaction_fling">
             <set path="/dev" file="cluster0_freq_max" value="124F80" />
@@ -35,17 +35,17 @@
             <set path="/dev" file="cluster0_freq_min" value="124F80" />
         </scene>
         <scene name="ddr">
-            <set path="/sys/class/devfreq/scene-frequency/sprd_governor" file="scene_boost_dfs" value="max" />
+            <set path="/sys/class/devfreq/scene-frequency/sprd-governor" file="scene_boost_dfs" value="max" />
         </scene>
         <scene name="launch" >
             <set path="/dev" file="cluster0_freq_max" value="124F80" />
             <set path="/dev" file="cluster0_freq_min" value="124F80" />
             <set path="/dev" file="cluster1_freq_max" value="17F4D0" />
             <set path="/dev" file="cluster1_freq_min" value="17F4D0" />
-            <set path="/sys/class/devfreq/scene-frequency/sprd_governor" file="scene_boost_dfs" value="max" />
+            <set path="/sys/class/devfreq/scene-frequency/sprd-governor" file="scene_boost_dfs" value="max" />
         </scene>
         <scene name="screen_rotation" >
-            <set path="/sys/class/devfreq/scene-frequency/sprd_governor" file="scene_boost_dfs" value="max" />
+            <set path="/sys/class/devfreq/scene-frequency/sprd-governor" file="scene_boost_dfs" value="max" />
         </scene>
         <scene name="video_1080p" >
             <set path="/sys/devices/system/cpu/cpuhotplug" file="cluster0_core_min_limit" value="3" />
@@ -57,19 +57,19 @@
             <set path="/sys/devices/system/cpu/cpuhotplug" file="cluster0_core_min_limit" value="4" />
             <set path="/dev" file="cluster0_freq_max" value="124F80" />
             <set path="/dev" file="cluster0_freq_min" value="124F80" />
-            <set path="/sys/class/devfreq/scene-frequency/sprd_governor" file="scene_boost_dfs" value="max" />
+            <set path="/sys/class/devfreq/scene-frequency/sprd-governor" file="scene_boost_dfs" value="max" />
         </scene>
         <scene name="performance_gts" >
             <set path="/sys/devices/system/cpu/cpuhotplug" file="cluster0_core_min_limit" value="4" />
             <set path="/dev" file="cluster0_freq_max" value="124F80" />
             <set path="/dev" file="cluster0_freq_min" value="124F80" />
-            <set path="/sys/class/devfreq/scene-frequency/sprd_governor" file="scene_boost_dfs" value="max" />
+            <set path="/sys/class/devfreq/scene-frequency/sprd-governor" file="scene_boost_dfs" value="max" />
         </scene>
         <scene name="performance_cts" >
             <set path="/sys/devices/system/cpu/cpuhotplug" file="cluster0_core_min_limit" value="4" />
             <set path="/dev" file="cluster0_freq_max" value="124F80" />
             <set path="/dev" file="cluster0_freq_min" value="124F80" />
-            <set path="/sys/class/devfreq/scene-frequency/sprd_governor" file="scene_boost_dfs" value="max" />
+            <set path="/sys/class/devfreq/scene-frequency/sprd-governor" file="scene_boost_dfs" value="max" />
         </scene>
         <scene name="temp_ctrl" >
             <set path="/sys/devices/system/cpu/cpuhotplug" file="cluster1_core_max_limit" value="0" />
@@ -97,6 +97,12 @@
         <scene name="screen_off" >
             <set path="/sys/devices/system/cpu/cpu0/cpufreq/schedutil" file="freq_margin" value="0" />
             <set path="/sys/devices/system/cpu/cpu4/cpufreq/schedutil" file="freq_margin" value="0" />
+        </scene>
+        <scene name="interaction_other">
+            <set path="/dev" file="cluster0_freq_max" value="124F80" />
+            <set path="/dev" file="cluster0_freq_min" value="124F80" />
+            <set path="/dev" file="cluster1_freq_max" value="17F4D0" />
+            <set path="/dev" file="cluster1_freq_min" value="17F4D0" />
         </scene>
     </mode>
     <mode name="low_power" />

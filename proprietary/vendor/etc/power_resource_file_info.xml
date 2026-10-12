@@ -38,7 +38,7 @@
         <attr name="set_func"     value="common_set_for_release_when_close" />
         <attr name="clear_func"   value="common_clear_for_release_when_close" />
     </file>
-    <file path="/sys/class/devfreq/scene-frequency/sprd_governor" file="scene_boost_dfs" no_has_def="1" >
+    <file path="/sys/class/devfreq/scene-frequency/sprd-governor" file="scene_boost_dfs" no_has_def="1" >
         <attr name="comp_func"    value="common_comp_ascend_order" />
         <attr name="set_func"     value="devfreq_ddr_set" />
         <attr name="clear_func"   value="devfreq_ddr_clear" />
