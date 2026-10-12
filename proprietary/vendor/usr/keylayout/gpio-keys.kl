@@ -3,3 +3,4 @@ key 115     VOLUME_UP       WAKE
 key 116     POWER           WAKE
 key 212     CAMERA          WAKE
 key 0x210   FOCUS           WAKE
+key 213     ASSIST          WAKE
