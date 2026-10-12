@@ -1,4 +1,0 @@
-service vendor.brightness-sync /system/bin/sh /vendor/bin/brightness-sync
-    class late_start
-    user root
-    group root system
