@@ -37,7 +37,7 @@
         <!-- Output devices declaration, i.e. Sink DEVICE PORT -->
         <devicePort tagName="Earpiece" type="AUDIO_DEVICE_OUT_EARPIECE" role="sink">
             <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
-                            samplingRates="44100" channelMasks="AUDIO_CHANNEL_IN_MONO"/>
+                            samplingRates="44100" channelMasks="AUDIO_CHANNEL_OUT_MONO,AUDIO_CHANNEL_OUT_STEREO"/>
         </devicePort>
         <devicePort tagName="Speaker" role="sink" type="AUDIO_DEVICE_OUT_SPEAKER">
             <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
@@ -94,7 +94,7 @@
     <!-- route declaration, i.e. list all available sources for a given sink -->
     <routes>
         <route type="mix" sink="Earpiece"
-               sources="primary output,compressed_offload,BT SCO Headset Mic"/>
+               sources="primary output,compressed_offload,BT SCO Headset Mic,Telephony Rx"/>
         <route type="mix" sink="Speaker"
                sources="primary output,compressed_offload,BT SCO Headset Mic,Telephony Rx"/>
         <route type="mix" sink="Wired Headset"
@@ -110,7 +110,7 @@
         <route type="mix" sink="primary input"
                sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic"/>
         <route type="mix" sink="Telephony Tx"
-               sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic, voice_tx"/>
+               sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic,voice_tx"/>
         <route type="mix" sink="voice_rx"
                sources="Telephony Rx"/>
     </routes>
