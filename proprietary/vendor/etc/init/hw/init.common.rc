@@ -110,7 +110,7 @@ on post-fs-data
     mkdir /mnt/vendor/productinfo/sensor_calibration_data 0770 system root
     mkdir /mnt/vendor/enhance 0771 system system
     mkdir /data/vendor/local/media 0770 audioserver system
-    mkdir /data/local/media 0770 audioserver system
+#mkdir /data/local/media 0770 audioserver system  # moved to init.qin_vm.rc
     mkdir /mnt/vendor/battery 0771 system root
     mkdir /mnt/vendor/battery/calibration_data 0770 system root
     mkdir /mnt/vendor/wcn 0771 system root
@@ -119,7 +119,7 @@ on post-fs-data
     #mkdir /data/apr 0777 system system
     #chown system system /data/apr.conf
     mkdir /data/mlog 0777
-    mkdir /data/misc 01771 system misc
+#mkdir /data/misc 01771 system misc  # moved to init.qin_vm.rc
     mkdir /mnt/vendor/productinfo/otpdata 0777 system root
 
     chmod 666     /sys/module/shub_core/parameters/gryo_firms
@@ -192,23 +192,23 @@ on post-fs-data
         mkdir /data/vendor/wifi/ 0770 wifi wifi
         mkdir /data/vendor/wifi/wpa 0770 wifi wifi
         mkdir /data/vendor/wifi/wpa/sockets 0770 wifi wifi
-        mkdir /data/system 0770 system system
+#mkdir /data/system 0770 system system  # moved to init.qin_vm.rc
         mkdir /etc/wifi 0770 wifi wifi
         write /data/vendor/wifi/fwpath sta_mode
         chmod 660 /data/vendor/wifi/fwpath
         chown wifi wifi /data/vendor/wifi/fwpath
-        rmdir /data/system/wpa_supplicant
-        mkdir /data/misc/dhcp 0770 dhcp dhcp
+#rmdir /data/system/wpa_supplicant  # moved to init.qin_vm.rc
+#mkdir /data/misc/dhcp 0770 dhcp dhcp  # moved to init.qin_vm.rc
         #to observe dnsmasq.leases file for dhcp information
-        chown dhcp system /data/misc/dhcp
+#chown dhcp system /data/misc/dhcp  # moved to init.qin_vm.rc
         setprop wifi.interface wlan0
-        mkdir /data/misc/dhcp6c 0770 dhcp dhcp
-        chown dhcp system /data/misc/dhcp6c
-        setprop debug.sf.disable_backpressure 1
-        setprop debug.sf.latch_unsignaled 1
+#mkdir /data/misc/dhcp6c 0770 dhcp dhcp  # moved to init.qin_vm.rc
+#chown dhcp system /data/misc/dhcp6c  # moved to init.qin_vm.rc
+#setprop debug.sf.disable_backpressure 1  # moved to init.qin_vm.rc
+#setprop debug.sf.latch_unsignaled 1  # moved to init.qin_vm.rc
         mkdir /data/vendor/thermald 0770 system system
         chown system system /data/vendor/thermald
-        mkdir /data/misc/hprofs 0777
+    #mkdir /data/misc/hprofs 0777  # moved to init.qin_vm.rc
         #start aprd
 
 service p2p_supplicant /vendor/bin/hw/wpa_supplicant \

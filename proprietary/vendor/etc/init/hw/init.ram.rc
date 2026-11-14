@@ -30,7 +30,7 @@ on property:ro.vendor.ramsize=4096M
 on property:ro.vendor.ramconfig=2
 #    setprop ro.config.low_ram true
 
-    write /proc/sys/vm/extra_free_kbytes 2048
+# enforcing: moved to init.qin_vm.rc ->     write /proc/sys/vm/extra_free_kbytes 2048
 
 #Set LMK watermark as {18M,30M,54M,66M,78M,90M}
     setprop sys.lmk.adj "0,100,200,300,900,906"
@@ -38,7 +38,7 @@ on property:ro.vendor.ramconfig=2
     setprop sys.lmk.autocalc false
 
 #Set vmpressure
-    write /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk 1
+# enforcing: moved to init.qin_vm.rc ->     write /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk 1
 
 #Set vmpressure based process reclaim
 #    write /sys/module/process_reclaim/parameters/pressure_min 50
@@ -49,12 +49,12 @@ on property:ro.vendor.ramconfig=2
 #    write /sys/module/process_reclaim/parameters/swap_eff_win 2
 #    write /sys/module/process_reclaim/parameters/swap_low_ratio 65
 #    write /sys/module/process_reclaim/parameters/swap_high_ratio 85
-    write /sys/module/process_reclaim/parameters/enable_process_reclaim 1
+# enforcing: moved to init.qin_vm.rc ->     write /sys/module/process_reclaim/parameters/enable_process_reclaim 1
 
 #enable boost_kill and boost_sigkill_free
-    write /proc/sys/kernel/boost_killing 1
-    write /proc/sys/kernel/boost_sigkill_free 1
-    write /proc/sys/vm/direct_swappiness 100
+# enforcing: moved to init.qin_vm.rc ->     write /proc/sys/kernel/boost_killing 1
+# enforcing: moved to init.qin_vm.rc ->     write /proc/sys/kernel/boost_sigkill_free 1
+# enforcing: moved to init.qin_vm.rc ->     write /proc/sys/vm/direct_swappiness 100
 
 ######## ramconfig=2,3 memory parameter configurations END #########
 
@@ -63,7 +63,7 @@ on property:ro.vendor.ramconfig=2
 on property:ro.vendor.ramconfig=4
 #    setprop ro.config.low_ram true
 
-    write /proc/sys/vm/extra_free_kbytes 10800
+# enforcing: moved to init.qin_vm.rc ->     write /proc/sys/vm/extra_free_kbytes 10800
 
 #Set LMK watermark as {24M,36M,64M,80M,144M,180MB}
     setprop sys.lmk.adj "0,100,200,600,900,906"
@@ -71,9 +71,9 @@ on property:ro.vendor.ramconfig=4
     setprop sys.lmk.autocalc false
 
 #Set vmpressure
-    write /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk 1
-    write /sys/module/lowmemorykiller/parameters/vmpressure_notify_usr_min 75
-    write /sys/module/lowmemorykiller/parameters/vmpressure_notify_usr_enable 1
+# enforcing: moved to init.qin_vm.rc ->     write /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk 1
+# enforcing: moved to init.qin_vm.rc ->     write /sys/module/lowmemorykiller/parameters/vmpressure_notify_usr_min 75
+# enforcing: moved to init.qin_vm.rc ->     write /sys/module/lowmemorykiller/parameters/vmpressure_notify_usr_enable 1
 
 #Set vmpressure based process reclaim
 #    write /sys/module/process_reclaim/parameters/pressure_min 50
@@ -84,12 +84,12 @@ on property:ro.vendor.ramconfig=4
 #    write /sys/module/process_reclaim/parameters/swap_eff_win 2
 #    write /sys/module/process_reclaim/parameters/swap_low_ratio 65
 #    write /sys/module/process_reclaim/parameters/swap_high_ratio 85
-    write /sys/module/process_reclaim/parameters/enable_process_reclaim 1
+# enforcing: moved to init.qin_vm.rc ->     write /sys/module/process_reclaim/parameters/enable_process_reclaim 1
 
 #enable boost_kill and boost_sigkill_free
-    write /proc/sys/kernel/boost_killing 1
-    write /proc/sys/kernel/boost_sigkill_free 1
-    write /proc/sys/vm/direct_swappiness 100
+# enforcing: moved to init.qin_vm.rc ->     write /proc/sys/kernel/boost_killing 1
+# enforcing: moved to init.qin_vm.rc ->     write /proc/sys/kernel/boost_sigkill_free 1
+# enforcing: moved to init.qin_vm.rc ->     write /proc/sys/vm/direct_swappiness 100
 
 ######## ramconfig=4 memory parameter configurations END #########
 
@@ -106,9 +106,9 @@ on property:ro.vendor.ramconfig=8
     setprop sys.lmk.autocalc true
 
 #Set vmpressure
-    write /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk 1
-    write /sys/module/lowmemorykiller/parameters/vmpressure_notify_usr_min 75
-    write /sys/module/lowmemorykiller/parameters/vmpressure_notify_usr_enable 1
+# enforcing: moved to init.qin_vm.rc ->     write /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk 1
+# enforcing: moved to init.qin_vm.rc ->     write /sys/module/lowmemorykiller/parameters/vmpressure_notify_usr_min 75
+# enforcing: moved to init.qin_vm.rc ->     write /sys/module/lowmemorykiller/parameters/vmpressure_notify_usr_enable 1
 
 #Set vmpressure based process reclaim
 #    write /sys/module/process_reclaim/parameters/pressure_min 50
@@ -119,20 +119,20 @@ on property:ro.vendor.ramconfig=8
 #    write /sys/module/process_reclaim/parameters/swap_eff_win 2
 #    write /sys/module/process_reclaim/parameters/swap_low_ratio 65
 #    write /sys/module/process_reclaim/parameters/swap_high_ratio 85
-    write /sys/module/process_reclaim/parameters/enable_process_reclaim 1
+# enforcing: moved to init.qin_vm.rc ->     write /sys/module/process_reclaim/parameters/enable_process_reclaim 1
 
 #enable boost_kill and boost_sigkill_free
-    write /proc/sys/kernel/boost_killing 1
-    write /proc/sys/kernel/boost_sigkill_free 1
-    write /proc/sys/vm/direct_swappiness 100
+# enforcing: moved to init.qin_vm.rc ->     write /proc/sys/kernel/boost_killing 1
+# enforcing: moved to init.qin_vm.rc ->     write /proc/sys/kernel/boost_sigkill_free 1
+# enforcing: moved to init.qin_vm.rc ->     write /proc/sys/vm/direct_swappiness 100
 
 ######## ramconfig=8,12,16 memory parameter configurations END #########
 
 #enable ZRAM on boot_complete
 on property:sys.boot_completed=1
-    write /proc/sys/vm/swappiness 150
-    write /proc/sys/vm/page-cluster  0
+# enforcing: moved to init.qin_vm.rc ->     write /proc/sys/vm/swappiness 150
+# enforcing: moved to init.qin_vm.rc ->     write /proc/sys/vm/page-cluster  0
 
-    write /sys/block/zram0/max_comp_streams 7
-    write /sys/block/zram0/comp_algorithm   lz4
+# enforcing: moved to init.qin_vm.rc ->     write /sys/block/zram0/max_comp_streams 7
+# enforcing: moved to init.qin_vm.rc ->     write /sys/block/zram0/comp_algorithm   lz4
     swapon_all /vendor/etc/fstab.enableswap
